@@ -1,0 +1,197 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* HTML5 display-role reset for older browsers */
+	article, aside, details, figcaption, figure, 
+	footer, header, hgroup, menu, nav, section {
+		display: block;
+	}
+	ul {
+		margin:0;
+		padding:0;
+	}
+	.clear-both {
+		clear:both;
+	}
+	a img {
+		border:none;
+	}
+/* green horizontal line */
+	.spacer {
+		clear: both;
+		border-top: 1px solid #90C900;
+	}
+	body {
+		font-size: 80%;
+		color: #666;
+		font-family: Verdana, Geneva, sans-serif;
+	}
+	
+	#wrapper {
+		width:98%;
+		max-width:1024px;
+		margin:0 auto;
+	}
+	
+/* header properties */
+	header #breakaway-logo {
+		width:30%;
+		max-width:252px;
+		margin: 0 auto;
+		display: block;
+	}
+	
+	header #header-image {
+		max-width: 567px;
+		width: 100%;	
+	}
+	
+/* navigation under header */
+	#navigation {
+		margin-top:8px;
+		border-top:solid 1px #5B9400;
+		border-bottom: solid 1px #5B9400;
+	}
+	
+/* start again back arrows */	
+	#navigation #start-again-back {
+		width: 150px;
+		margin: 3px auto;
+	}
+	#navigation ul li {
+		display:inline;
+		list-style-type: none;
+	}
+	#navigation #start-again-back #start-again-bt {
+		display: inline-block;
+		width: 90px;
+		height: 17px;
+		background: url(images/start-btn.png) top;
+		text-indent: -99999px;
+	}	
+	#navigation #start-again-back #start-again-bt:hover {
+		background-position: 0 -17px;
+	}
+	#navigation #start-again-back #back-bt {
+		display: inline-block;
+		width: 55px;
+		height: 17px;
+		background: url(images/back-btn.png) top;
+		text-indent: -99999px;
+	}	
+	#navigation #start-again-back #back-bt:hover {
+		background-position: 0 -17px;
+	}
+
+/* progress bar */
+	#navigation #progress {
+		margin-bottom:3px;
+	}
+	#navigation #progress img {
+		width: 100%;
+		max-width: 592px;
+		height: auto;
+		display: block;
+		margin: auto;
+	}
+/* booking details */
+	#booking-details {
+		font-weight: bold;
+		color: #666;
+		background-color: #90C900;
+		padding: 10px;
+		margin: 10px 0;
+		-moz-border-radius: 20px;
+		-webkit-border-radius: 20px;
+		border-radius: 20px;
+	}
+	#booking-details table {
+		width:100%;
+	}
+	#booking-details td {
+		width:50%;
+	}	
+	
+
+/* bootom back and start again buttons */
+	#bottom-start-again-back {
+		clear: both;
+		border-top: 1px solid #90C900;
+		padding:5px;
+	}
+	#bottom-start-again-back ul li {
+		display:inline;
+		list-style-type: none;
+	}
+	#back-bt-bottom {
+		display: inline-block;
+		width: 75px;
+		height: 35px;
+		background: url(images/back-btn-old.png) top;
+		text-indent: -99999px;
+	}
+	#back-bt-bottom:hover {
+		background-position: 0 -35px;
+	}
+	
+	#start-again-bt-bottom {
+		display: inline-block;
+		width: 127px;
+		height: 35px;
+		background: url(images/start-btn-old.png) top;
+		text-indent: -99999px;
+	}
+	#start-again-bt-bottom:hover {
+		background-position: 0 -35px;
+	}
+	
+	footer {
+		border-top: 1px solid #90C900;
+	}
+	
+/* tablet layout*/
+@media only screen and (min-width: 481px) {
+
+	#wrapper {
+		width:100%;
+		background-color:#B5E184;
+	}
+	header #breakaway-logo {
+		width:30%;
+		float:left;
+	}
+	header #header-image {
+		width:60%;
+		float:right;	
+	}
+/* booking details */
+	#booking-details-left {
+		width:50%;
+		float:left;	
+	}
+	#booking-details-right {
+		width:50%;	
+		float:left;
+	}
+}
+
+/*desktop layout*/
+@media only screen and (min-width: 769px) {
+	#wrapper {
+		background-color:#FFF;
+	}
+/* start again back arrows */	
+	#navigation #start-again-back {
+		float:left;
+		margin-top:6px;
+	}
+	
+	
+/* progress bar */
+	#navigation #progress {
+		margin-bottom: 1px;
+		margin-top: 1px;
+		float:right;
+	}
+
+}
