@@ -63,6 +63,15 @@
 		font-family: Verdana, Geneva, sans-serif;
 	}
 	
+/* please wait page */
+img.please-wait {
+	max-width:238px;
+	width:100%;
+	height:auto;
+	margin:5% auto 0;
+	display:block;
+	}
+	
 	#wrapper {
 		width:98%;
 		max-width:1024px;

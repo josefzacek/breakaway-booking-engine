@@ -132,7 +132,7 @@
 	    
         
 	    <div class="hotel-options-radio-buttons">
-          <form action="">
+          <form action="select-hotel.php">
           <p><label>
               <input type="radio" name="roomtype" value="" checked="checked"><span class="blue">Standard Max 4  : <strong>€494</strong></span>
           </label></p>
@@ -185,34 +185,27 @@
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    <div class="tab-content">
-    
-    		<div id="tabs1">
+
+	<div class="tab-content">
+       		<div id="tabs1">
     			<ul>
 					<li class="current">
-                    	<a style="cursor:pointer" onclick="ChangeTab(this,'div_general','0');">
+                    	<a href="#" onclick="ChangeTab(this,'div_general','0');">
                         	General
                         </a>
                     </li>
 					<li class="">
-                    	<a style="cursor:pointer" onclick="ChangeTab(this,'div_description','0');">
+                    	<a href="#" onclick="ChangeTab(this,'div_description','0');">
                         	Description
                         </a>
                     </li>
 					<li class="">
-                    	<a style="cursor:pointer" onclick="ChangeTab(this,'div_photos','0');">
+                    	<a href="#" onclick="ChangeTab(this,'div_photos','0');">
                     		Photos
                         </a>
                     </li>
 					<li class="">
-                    	<a style="cursor:pointer" onclick="ChangeTab(this,'div_facilities','0');">
+                    	<a href="#" onclick="ChangeTab(this,'div_facilities','0');">
                         	Facilities
                         </a>
                     </li>

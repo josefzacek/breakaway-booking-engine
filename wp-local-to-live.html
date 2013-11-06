@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+<h1>13 Steps To Deploy WordPress From Your Localhost To A Live Web Server</h1>
+<div>by <a href="http://www.codemyownroad.com/author/josh/" title="Posts by Josh Kohlbach" rel="author">Josh Kohlbach</a> on <abbr title="2011-01-21T07:06:58+1000">January 21, 2011</abbr> in <a href="http://www.codemyownroad.com/category/how-to-guides/" title="View all posts in How-To Guides">How-To Guides</a></div>
+<div>
+  <div>
+    <p>If you're new here, you may want to subscribe to my <a href="http://feeds.feedburner.com/CodeMyOwnRoad" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://feeds.feedburner.com/CodeMyOwnRoad']);" target="_blank">RSS feed</a> and <a href="http://twitter.com/#!/jkohlbach" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://twitter.com/#!/jkohlbach']);">follow me on Twitter</a> for lots of delicious links :) Thanks for visiting!</p>
+  </div>
+  <a id="dd_start"></a>
+  <p>I love using WordPress, but there&rsquo;s one process that really annoys the heck out of me when I&rsquo;m developing websites with it and that&rsquo;s deployment from a localhost server to a live web server. There&rsquo;s no set way to do this, but this guide attempts to solve that problem. This is the method I&rsquo;ve found most reliable when deploying websites from localhost to a web server.</p>
+  <h2>Tools Used In This Guide</h2>
+  <ul>
+    <li><a href="http://www.phpmyadmin.net/home_page/index.php" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','www.phpmyadmin.net/home_page/index.php']);">phpMyAdmin</a></li>
+    <li><a href="http://www.jedit.org/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.jedit.org/']);">jEdit</a> (or other editor able to do global string replacements and save in UTF-8 format)</li>
+    <li><a href="http://filezilla-project.org/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://filezilla-project.org/']);">FileZilla</a></li>
+  </ul>
+  <h2>Steps to Deploy WordPress From Localhost To Your Web Server</h2>
+  <ol>
+    <li>Export your DB from the localhost using phpMyAdmin as a .zip</li>
+    <li>Extract the zip locally somewhere for editing</li>
+    <li>Open the .sql file in jEdit (or equivalent UTF-8 capable editor) and do a string search for localhost</li>
+    <li>Find the string you need to replace, usually http://localhost/your-site depending on how you&rsquo;ve<a href="http://www.codemyownroad.com/turn-your-own-computer-into-a-website-test-bed-with-xampp/">setup your local server</a>.</li>
+    <li>Do a global string replace using the replacement string you found and replace it with your new domain, something like http://your-domain.com</li>
+    <li>Save in UTF-8 format. You might want to save as a new file just in case you need to revert.</li>
+    <li>Using phpMyAdmin on your destination web server create a database and import the new .sql file. With some cPanel hosts like <strong><a title="From $6.95 a month" href="http://www.bluehost.com/track/codemyow/website_migration" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.bluehost.com/track/codemyow/website_migration']);">Bluehost</a></strong> it&rsquo;s easier to create using cPanel&rsquo;s tools then edit in phpMyAdmin for importing the file. If all is okay you should now have your database setup.</li>
+    <li>Using FileZilla (or equivalent FTP program) upload your website&rsquo;s files to the web server.</li>
+    <li>While the upload is happening, it&rsquo;s time to create the wp-config.php file for your production instance, make a copy of the existing wp-config.php file in your WP root directory.</li>
+    <li>Open and change the database value to the name of your web server&rsquo;s database for your site. Also, change the username and password for the database as required.</li>
+    <li>Save this as wp-config.production.php and upload to your web server.</li>
+    <li>Once all uploading is complete, using FileZilla rename the existing wp-config.php file on your web server to wp-config.development.php and also rename wp-config.production.php to wp-config.php. Your new config file is now in effect.</li>
+    <li>Before you get all happy and try to visit your website you need to login to the WordPress admin and navigate to the Permalink settings. Once there just click the save button (don&rsquo;t change anything, just re-save it). This resets the permalinks to your new URLs so the links to pages and posts will work throughout your site.</li>
+  </ol>
+  <p>And that&rsquo;s all folks!</p>
+  <p>Any questions, send me a comment below and I&rsquo;ll see if I can help you.</p>
+</div>
+</body>
+</html>
