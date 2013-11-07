@@ -6,15 +6,17 @@
 </head>
 
 <body>
-<h1>13 Steps To Deploy WordPress From Your Localhost To A Live Web Server</h1>
-<div>by <a href="http://www.codemyownroad.com/author/josh/" title="Posts by Josh Kohlbach" rel="author">Josh Kohlbach</a> on <abbr title="2011-01-21T07:06:58+1000">January 21, 2011</abbr> in <a href="http://www.codemyownroad.com/category/how-to-guides/" title="View all posts in How-To Guides">How-To Guides</a></div>
-<div>
-  <div>
-    <p>If you're new here, you may want to subscribe to my <a href="http://feeds.feedburner.com/CodeMyOwnRoad" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://feeds.feedburner.com/CodeMyOwnRoad']);" target="_blank">RSS feed</a> and <a href="http://twitter.com/#!/jkohlbach" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://twitter.com/#!/jkohlbach']);">follow me on Twitter</a> for lots of delicious links :) Thanks for visiting!</p>
-  </div>
-  <a id="dd_start"></a>
-  <p>I love using WordPress, but there&rsquo;s one process that really annoys the heck out of me when I&rsquo;m developing websites with it and that&rsquo;s deployment from a localhost server to a live web server. There&rsquo;s no set way to do this, but this guide attempts to solve that problem. This is the method I&rsquo;ve found most reliable when deploying websites from localhost to a web server.</p>
-  <h2>Tools Used In This Guide</h2>
+<h1>Transfer WordPress from localhost to live web server</h1>
+<p>Everytime I create Wordpress website I use localhost as I find it the best solution when developing Wordpress website as updating changes on live web server is so time consuming.</p>
+<p>But migrating Wordpress from localhost to live web server can be tricky and I always have to look into my notes to make sure I do everything right.</p>
+<p>There is plenty of resources on web and no set way to do it so here is the method I've fount most efficient when deploying Wordpress website from localhost to live web server.</p>
+<p><strong>Programs needed to complete this task:</strong></p>
+<ul>
+  <li><strong>phpMyAdmin</strong> (export database from localhost)</li>
+  <li><strong>text editor</strong> (with ability to search and replace string and save in UTF-8 format, I use Notepad++)</li>
+  <li><strong>Filezilla</strong> (upload Wordpress files to live web server)</li>
+</ul>
+<h2>Tools Used In This Guide</h2>
   <ul>
     <li><a href="http://www.phpmyadmin.net/home_page/index.php" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','www.phpmyadmin.net/home_page/index.php']);">phpMyAdmin</a></li>
     <li><a href="http://www.jedit.org/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.jedit.org/']);">jEdit</a> (or other editor able to do global string replacements and save in UTF-8 format)</li>

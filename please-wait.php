@@ -5,9 +5,11 @@
 <title>please wait</title>
 <link rel="stylesheet" href="styles.css">
 
+<meta http-equiv="refresh" content="10;url=select-hotel.php" />
 <!--[if lt IE 9]>
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
+
 <body>
 <div id="wrapper">
 
