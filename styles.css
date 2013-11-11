@@ -396,7 +396,24 @@ body {
 		margin-top: 1px;
 		float:right;
 	}
-	/* hotel-tab-content (general, description, photo, facilities) */	
+/* hotel-options */
+	.hotel-options {
+		width:45%;
+		height:430px;
+		overflow:auto;
+		float:left;
+	}
+	.hotel-tab-content {
+		width:50%;
+		float:right;
+	
+	}
+	.hotel-tab-content .content {
+		height:436px;
+		overflow:auto;
+	}
+
+/* hotel-tab-content (general, description, photo, facilities) */	
 	.hotel-tab-content .content img {
 		width:32.3%;
 		height:auto;
