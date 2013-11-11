@@ -23,7 +23,7 @@
     </div>
     <!-- start-again-back end -->
     
-    <div id="progress"> <img src="images/select-hotel/progress1.png" alt="Booking progress"/> </div>
+    <div id="progress"> <img src="images/select-extras/progress2.png" alt="Booking progress"/> </div>
     <!-- progress end -->
     <div class="clear-both"></div>
   </div>
