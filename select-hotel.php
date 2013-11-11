@@ -3,8 +3,9 @@
 <head>
 <meta charset="utf-8">
 <title>select hotel</title>
-<link rel="stylesheet" type="text/css" href="styles.css"/>
-<script type="text/javascript" src="script.js"></script>
+<link rel="stylesheet" type="text/css" href="css/shared-styles.css"/>
+<link rel="stylesheet" type="text/css" href="css/select-hotel.css"/>
+<script type="text/javascript" src="js/select-hotel.js"></script>
 <!--[if lt IE 9]>
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
@@ -13,7 +14,7 @@
 
 <body>
 <div id="wrapper">
-  <?php include("/shared/header.php"); ?>
+  <?php include("shared-html/header.php"); ?>
   <div id="navigation">
     <div id="start-again-back">
       <ul>
@@ -760,7 +761,7 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
   </div>
   <!-- bottom-start-again-back end -->
   
-  <?php include("/shared/footer.php"); ?>
+  <?php include("shared-html/footer.php"); ?>
 </div>
 <!-- wrapper end  -->
 </body>

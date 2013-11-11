@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>please wait</title>
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="css/shared-styles.css">
 
 <meta http-equiv="refresh" content="10;url=select-hotel.php" />
 <!--[if lt IE 9]>
