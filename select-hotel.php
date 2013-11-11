@@ -120,6 +120,7 @@
         <h4>Free Meals Offer: €1220</h4>
       </div>
       <!-- free-meals-offer end --> 
+      <p class="center small-text-10 pink">Please see summary on final booking page for total cost.</p>
       
     </div>
     <!-- hotel-name-price-meals end -->
@@ -280,7 +281,7 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
         <h4>Free Meals Offer: €1220</h4>
       </div>
       <!-- free-meals-offer end --> 
-      
+       <p class="center small-text-10 pink">Please see summary on final booking page for total cost.</p>
     </div>
     <!-- hotel-name-price-meals end -->
     
@@ -440,7 +441,7 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
         <h4>Free Meals Offer: €1220</h4>
       </div>
       <!-- free-meals-offer end --> 
-      
+       <p class="center small-text-10 pink">Please see summary on final booking page for total cost.</p>
     </div>
     <!-- hotel-name-price-meals end -->
     
@@ -600,7 +601,7 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
         <h4>Free Meals Offer: €1220</h4>
       </div>
       <!-- free-meals-offer end --> 
-      
+       <p class="center small-text-10 pink">Please see summary on final booking page for total cost.</p>
     </div>
     <!-- hotel-name-price-meals end -->
     
