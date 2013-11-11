@@ -67,12 +67,12 @@
 	}
 	
 /* please wait page */
-img.please-wait {
-	max-width:238px;
-	width:100%;
-	height:auto;
-	margin:5% auto 0;
-	display:block;
+	img.please-wait {
+		max-width:238px;
+		width:100%;
+		height:auto;
+		margin:5% auto 0;
+		display:block;
 	}
 	
 	#wrapper {
@@ -93,7 +93,7 @@ img.please-wait {
 		max-width: 567px;
 		width: 100%;	
 	}
-	
+		
 /* navigation under header */
 	#navigation {
 		margin-top:8px;
@@ -130,7 +130,7 @@ img.please-wait {
 	#navigation #start-again-back #back-bt:hover {
 		background-position: 0 -17px;
 	}
-
+	
 /* progress bar */
 	#navigation #progress {
 		margin-bottom:3px;
@@ -142,6 +142,7 @@ img.please-wait {
 		display: block;
 		margin: auto;
 	}
+	
 /* booking details */
 	#booking-details {
 		font-weight: bold;
@@ -159,132 +160,7 @@ img.please-wait {
 	#booking-details td {
 		width:50%;
 	}
-/* refine search */
-	#refine-search {
-		margin-bottom:10px;
-	}
-/* category dropdown */
-	#category-dropdown {
-		text-align:center;
-	}
-	#category-dropdown select {
-		width:98%;
-	}
-/* hotel dropdown */
-	#hotel-dropdown {
-		text-align:center;
-	}
-	#hotel-dropdown select {
-		width:98%;
-	}
-/* hotel wrapper */
-  .hotel-wrapper {
-	  	background-color:#90C900;
-		border: 3px solid #90C900;
-		-moz-border-radius: 20px;
-		-webkit-border-radius: 20px;
-		border-radius: 20px;
-		margin: 10px 0;
-		background-image:url(../images/select-hotel/hotelDivbg.png);
-		background-repeat: repeat-x;
-		padding: 0.5% 2%;
-	}
-	.hotel-wrapper h3 {
-		color:#06F;
-		text-align:center;
-	}
-	.best-price-available {
-		text-align:center;
-		color: #FFF;
-		-moz-border-radius: 20px;
-		-webkit-border-radius: 20px;
-		border-radius: 20px;
-		background-color:#06f;
-		padding:3px;
-		}
-	.free-meals-offer {
-		text-align:center;
-		color: #FFF;
-		-moz-border-radius: 20px;
-		-webkit-border-radius: 20px;
-		border-radius: 20px;
-		background-color:#b8238f;
-		padding:3px;
-		margin:3px 0;
-	}
-/* hotel-options */
-	.hotel-options {
-		border: 3px solid #9C0;
-		-moz-border-radius: 20px;
-		-webkit-border-radius: 20px;
-		border-radius: 20px;
-		background-color:#afcb83;
-		padding:2%
-	}
-	.hotel-options-radio-buttons {
-		background-color:#fff;
-		-moz-border-radius: 10px;
-		-webkit-border-radius: 10px;
-		border-radius: 10px;
-		padding:0.6% 2%;
-	}	
 	
-/* hotel-tab-content (general, description, photo, facilities) */
-	
-	#tabs-navigation {		
-		float: left;
-		width:100%;
-	}	 
-	#tabs-navigation li {
-		display: inline;
-		margin: 0;
-		padding: 0;
-	}
-	#tabs-navigation span {
-		cursor:pointer;
-		color:#fff;
-		float: left;
-		margin: 0.2%;
-		padding: 0.7%;
-		background-color:#06F;
-		-moz-border-radius-topleft:5px;
-		-moz-border-radius-topright:5px;
-		-webkit-border-top-left-radius:5px;
-		-webkit-border-top-right-radius:5px;
-		border-top-left-radius:5px;
-		border-top-right-radius:5px;
-	}	
-	#tabs-navigation .current span {
-		background-color:#b8238f;
-	}
-	.hotel-tab-content .content {
-		padding:1%;
-		float: left;
-		background-color:#fff;
-		-moz-border-radius: 10px;
-		-webkit-border-radius: 10px;
-		border-radius: 10px;
-	}
-	.hotel-tab-content .content img {
-		width:100%;
-		height:auto;
-		float:left;
-		margin:0.5%;
-		
-	}
-	.hotel-tab-content .photos-img img {
-		width:100%;
-		height:auto;
-		margin:0.5%;
-	}
-
-	
-	
-	
-	
-	
-	
-
 /* bottom back and start again buttons */
 	#bottom-start-again-back {
 		clear: both;
@@ -305,7 +181,6 @@ img.please-wait {
 	#back-bt-bottom:hover {
 		background-position: 0 -35px;
 	}
-	
 	#start-again-bt-bottom {
 		display: inline-block;
 		width: 127px;
@@ -316,28 +191,15 @@ img.please-wait {
 	#start-again-bt-bottom:hover {
 		background-position: 0 -35px;
 	}
-	
 	footer {
 		border-top: 1px solid #90C900;
 	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 /* tablet layout*/
 @media only screen and (min-width: 481px) {
-
-body {
+	body {
 	background-color:red;
-}
+	}
 	#wrapper {
 		width:100%;
 	}
@@ -358,31 +220,10 @@ body {
 		width:50%;	
 		float:left;
 	}
-	
-/* category dropdown */
-	#category-dropdown {
-		width:50%;
-		float:left
-	}
-/* hotel dropdown */
-	#hotel-dropdown {
-		width:50%;
-		float:left;
-	}
-/* hotel-tab-content (general, description, photo, facilities) */	
-	.hotel-tab-content .content img {
-		width:49%;
-		height:auto;
-	}
-	.hotel-tab-content .photos-img img {
-		width:49%;
-		height:auto;
-	}
 }
 
 /*desktop layout*/
 @media only screen and (min-width: 769px) {
-	
 	body {
 		background-color:#FFF;
 	}
@@ -390,40 +231,11 @@ body {
 	#navigation #start-again-back {
 		float:left;
 		margin-top:6px;
-	}
-	
-	
+	}	
 /* progress bar */
 	#navigation #progress {
 		margin-bottom: 1px;
 		margin-top: 1px;
 		float:right;
 	}
-/* hotel-options */
-	.hotel-options {
-		width:45%;
-		height:430px;
-		overflow:auto;
-		float:left;
-	}
-	.hotel-tab-content {
-		width:50%;
-		float:right;
-	
-	}
-	.hotel-tab-content .content {
-		height:436px;
-		overflow:auto;
-	}
-
-/* hotel-tab-content (general, description, photo, facilities) */	
-	.hotel-tab-content .content img {
-		width:32.3%;
-		height:auto;
-	}
-	.hotel-tab-content .photos-img img {
-		width:32.3%;
-		height:auto;
-	}
-
 }
