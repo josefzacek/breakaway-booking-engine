@@ -86,6 +86,7 @@
     <ul>
       <li><a href="select-hotel.php" id="back-bt-bottom">Back</a></li>
       <li><a href="index.php" id="start-again-bt-bottom">Start again</a></li>
+      <li id="proced-to-checkout"><a href="transfers-insurance.php" id="proceed-checkout">Proceed to Checkout</a></li>
     </ul>
   </div>
   <!-- bottom-start-again-back end -->

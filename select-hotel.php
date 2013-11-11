@@ -179,8 +179,8 @@
           </p>
         </div> <!-- rooms-park-passes end -->
         
-        <p class="center"><a href="#" class="blue-button"><strong>Select Best Price and Proceed</strong></a></p>
-      <p class="center"><a href="#" class="pink-button"><strong>Select Meal Deal and Proceed</strong></a></p>
+        <p class="center"><a href="select-extras.php" class="blue-button"><strong>Select Best Price and Proceed</strong></a></p>
+      <p class="center"><a href="select-extras.php" class="pink-button"><strong>Select Meal Deal and Proceed</strong></a></p>
         
         
 	</div> <!-- hotel-options end -->
