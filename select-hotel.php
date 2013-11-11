@@ -241,6 +241,11 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
 	        <img src="images/select-hotel/36_2_STD.jpg" alt="Santa Fe "/>
 	        <img src="images/select-hotel/36_2_STD.jpg" alt="Santa Fe "/>
 	        <img src="images/select-hotel/36_2_STD.jpg" alt="Santa Fe "/>
+            <img src="images/select-hotel/36_2_STD.jpg" alt="Santa Fe "/>
+	        <img src="images/select-hotel/36_2_STD.jpg" alt="Santa Fe "/>
+	        <img src="images/select-hotel/36_2_STD.jpg" alt="Santa Fe "/>
+	        <img src="images/select-hotel/36_2_STD.jpg" alt="Santa Fe "/>
+	        <img src="images/select-hotel/36_2_STD.jpg" alt="Santa Fe "/>
 		</div>	 <!-- div_photos end --> 
 	        
     	<div id="div_facilities_0" class="content" style="display:none">
