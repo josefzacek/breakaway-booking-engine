@@ -1,16 +1,31 @@
 @charset "utf-8";
 /* CSS Document */
 
-body {
-	background-color:#99CCFF;
+/* mobile layout */
+#booking-form-middle-box {
+	width:100%;
 }
 
 /* tablet layout*/
 @media only screen and (min-width: 481px) {
+	body {
+		background-color:#EFEFEF;
+	}
 	
+	#booking-form-middle-box {
+		margin:3% auto;
+		max-width:614px;
+		min-height:314px;
+		background-image:url(../images/booking-form/disney-booking-form.jpg);
+		background-position: center;
+    	background-size: cover;
+	}
 }
 
 /*desktop layout*/
 @media only screen and (min-width: 769px) {
+	body {
+		background-color:#fff;
+	}
 
 }

@@ -11,6 +11,13 @@
 </head>
 
 <body>
-hotels and park passes
+	<div id="booking-form-middle-box">
+	<p>hotels and park passes</p>
+    <p>hotels and park passes</p>
+    <p>hotels and park passes</p>
+    <p>hotels and park passes</p>
+    <p>hotels and park passes</p>
+    <p>hotels and park passes</p>
+	</div> <!-- booking-form-middle-box end -->
 </body>
 </html>
