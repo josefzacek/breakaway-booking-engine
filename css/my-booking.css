@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* phone layout*/
+	.my-booking {
+		margin-top:2%;
+	}
+	.my-booking h2 {
+		color:#AC5D9F;
+	}
+	.my-booking input[type="text"], .my-booking input[type="password"] {
+		width:100%;
+	}
+	.my-booking input[type="submit"] {
+		width:50%;
+	}
+/* tablet layout*/
+@media only screen and (min-width: 481px) {
+	.my-booking input[type="text"], .my-booking input[type="password"] {
+		width:50%;
+	}
+	.my-booking input[type="submit"] {
+		width:30%;
+	}	
+}
+
+/*desktop layout*/
+@media only screen and (min-width: 769px) {
+	#my-booking-form {
+		background-color:#ECECEC;
+		padding:2%;
+		width:50%;
+		margin:0 auto;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+		border-radius: 10px;
+	}
+}
