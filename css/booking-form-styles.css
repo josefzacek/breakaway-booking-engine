@@ -2,22 +2,45 @@
 /* CSS Document */
 
 /* mobile layout */
-#booking-form-middle-box {
-	width:100%;
-}
-
+	#booking-form-middle-box-holder {
+		width:100%;
+	}
+	#booking-form-middle-box-holder nav ul {
+		margin:0;
+		padding:0;
+	}
+	#booking-form-middle-box-holder nav ul li {
+		list-style:none;
+	}
+	#booking-form-middle-box-holder nav ul li a {
+		margin:2px 0;
+		padding:3px 0;
+		
+		text-align:center;
+		background-color:#0F0;
+		display:block;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+		border-radius: 10px;
+		background-color: #06F;
+		padding: 6px;
+		text-decoration:none;
+	}
 /* tablet layout*/
 @media only screen and (min-width: 481px) {
 	body {
 		background-color:#EFEFEF;
 	}
 	
-	#booking-form-middle-box {
+	#booking-form-middle-box-holder {
 		margin:3% auto;
 		max-width:614px;
+		
+	}
+	#booking-form {
 		min-height:314px;
 		background-image:url(../images/booking-form/disney-booking-form.jpg);
-		background-position: center;
+		background-position: center bottom;
     	background-size: cover;
 	}
 }
@@ -26,6 +49,13 @@
 @media only screen and (min-width: 769px) {
 	body {
 		background-color:#fff;
+	}
+	#booking-form-middle-box-holder nav ul li {
+		display:inline-block;
+	}
+	#booking-form-middle-box-holder nav{
+		padding-top: 15px;
+		padding-left: 6px;
 	}
 
 }

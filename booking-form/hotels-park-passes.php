@@ -11,13 +11,22 @@
 </head>
 
 <body>
-	<div id="booking-form-middle-box">
-	<p>hotels and park passes</p>
-    <p>hotels and park passes</p>
-    <p>hotels and park passes</p>
-    <p>hotels and park passes</p>
-    <p>hotels and park passes</p>
-    <p>hotels and park passes</p>
+	<div id="booking-form-middle-box-holder">
+      <nav>
+          <ul>
+              <li><a href="hotels-park-passes.php">Hotels &amp; Park Passes</a></li>
+              <li><a href="park-pass-only.php">Park Pass Only</a></li>
+              <li><a href="special-offers.php">Special Offers</a></li>
+          </ul>
+      </nav>
+      <div id="booking-form">
+        <p>hotels and park passes</p>
+        <p>hotels and park passes</p>
+        <p>hotels and park passes</p>
+        <p>hotels and park passes</p>
+        <p>hotels and park passes</p>
+        <p>hotels and park passes</p>
+      </div> <!-- booking-form end -->
 	</div> <!-- booking-form-middle-box end -->
 </body>
 </html>
