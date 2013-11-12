@@ -7,11 +7,13 @@
 
 <body>
 <ul>
-  <li><a href="please-wait.php">please wait</a></li>
-  <li><a href="select-hotel.php">hotel</a></li>
-  <li><a href="select-extras.php">extras</a></li>
-  <li><a href="transfers-insurance.php">transfers</a></li>
-  <li><a href="booking-details.php">booking</a></li>
+  <li><a href="my-booking.php">My booking</a></li>
+  <li><a href="booking-form/hotels-park-passes.php">Booking form (hotels &amp; park passes, park passes only, special offers)</a></li>
+  <li><a href="please-wait.php">Please wait (searching)</a></li>
+  <li><a href="select-hotel.php">Select Hotel</a></li>
+  <li><a href="select-extras.php">Select Extras</a></li>
+  <li><a href="transfers-insurance.php">Transfers and Insurance</a></li>
+  <li><a href="booking-details.php">Booking details</a></li>
   
 </ul>
 </body>
