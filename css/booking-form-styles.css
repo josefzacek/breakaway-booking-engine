@@ -4,3 +4,13 @@
 body {
 	background-color:#99CCFF;
 }
+
+/* tablet layout*/
+@media only screen and (min-width: 481px) {
+	
+}
+
+/*desktop layout*/
+@media only screen and (min-width: 769px) {
+
+}
