@@ -2,6 +2,15 @@
 /* CSS Document */
 
 /* mobile layout */
+  	body {
+		font-size: 80%;
+		color: #000;
+		font-family: Verdana, Geneva, sans-serif;
+	}
+	.center {
+		text-align:center;
+	}
+	
 	#booking-form-middle-box-holder {
 		width:100%;
 	}
@@ -15,9 +24,7 @@
 	#booking-form-middle-box-holder nav ul li a {
 		margin:2px 0;
 		padding:3px 0;
-		
 		text-align:center;
-		background-color:#0F0;
 		display:block;
 		-moz-border-radius: 10px;
 		-webkit-border-radius: 10px;
@@ -25,7 +32,22 @@
 		background-color: #06F;
 		padding: 6px;
 		text-decoration:none;
+        color:#fff;
+		font-weight:bold;
 	}
+    #booking-form-middle-box-holder nav ul li.current a {
+        background-color: #B8238F;
+    }
+	#booking-form-middle-box-holder #booking-form {
+		text-align:center;
+	}
+	#booking-form-middle-box-holder #booking-form input,
+	#booking-form-middle-box-holder #booking-form select,
+	#booking-form-middle-box-holder input {
+		width:98%;
+		margin:0 2px;
+	}
+
 /* tablet layout*/
 @media only screen and (min-width: 481px) {
 	body {
@@ -59,3 +81,4 @@
 	}
 
 }
+
