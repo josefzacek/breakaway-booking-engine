@@ -10,6 +10,10 @@
 	.center {
 		text-align:center;
 	}
+	.clear-both {
+		clear:both;
+		padding-top:10px;
+	}
 	
 	#booking-form-middle-box-holder {
 		width:100%;
@@ -47,6 +51,25 @@
 		width:98%;
 		margin:0 2px;
 	}
+	#booking-form-middle-box-holder input[type="button"] {
+		
+		margin:2px 0;
+		padding:3px;
+		text-align:center;
+		display:block;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+		border-radius: 10px;
+		background-color: #06F;
+		padding: 6px;
+		text-decoration:none;
+        color:#fff;
+		font-weight:bold;
+		border-style:none;
+		cursor:pointer;
+		float:right;
+		
+	}
 
 /* tablet layout*/
 @media only screen and (min-width: 481px) {
@@ -60,12 +83,38 @@
 		
 	}
 	#booking-form {
-		min-height:314px;
-		background-image:url(../images/booking-form/disney-booking-form.jpg);
+		min-height:325px;
+		background-image:url(../images/booking-form/disney-booking-form.png);
 		background-position: center bottom;
     	background-size: cover;
+		background-color:#75406e;
+		-moz-border-radius: 15px;
+		-webkit-border-radius: 15px;
+		border-radius: 15px;
+	}
+	
+	#booking-form label{
+		display: inline-block;
+		min-width:220px;
+		text-align:left;
+	}
+	
+	
+	#booking-form p {
+		position: relative;
+		top: 16px;
+		max-width: 483px;
+		font-size: 80%;
+		color:#fff;
+	}
+	#booking-form-middle-box-holder input[type="button"] {
+		width:20%;
 	}
 }
+
+
+
+
 
 /*desktop layout*/
 @media only screen and (min-width: 769px) {

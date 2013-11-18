@@ -4,14 +4,27 @@
 <meta charset="utf-8">
 <title>Hotels &amp; park passes</title>
 <link rel="stylesheet" type="text/css" href="../css/booking-form-styles.css"/>
+<link rel="stylesheet"  type="text/css" href="../css/jquery-calendar.css" />
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
 <!--[if lt IE 9]>
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
+
+
+<!-- jQuery callendar  -->
+<script>
+  $(function() {
+    $( "#departure-date").datepicker({ dateFormat: "dd-mm-yy"});
+	$( "#return-date").datepicker({ dateFormat: "dd-mm-yy"});
+  });
+  </script>
 
 </head>
 
 <body>
 	<div id="booking-form-middle-box-holder">
+    
       <nav>
           <ul>
               <li class="current"><a href="hotels-park-passes.php">Hotels &amp; Park Passes</a></li>
@@ -19,19 +32,18 @@
               <li><a href="special-offers.php">Special Offers</a></li>
           </ul>
       </nav>
-    
         <form action="#" method="post">
           <div id="booking-form">
-          <p>
+          <p class="departure-date">
         	<label>
             	Departure date:<br/>
-                <input type="date">
+                <input type="text" id="departure-date" placeholder="dd-mm-yyyy"  />
             </label>
         </p>
-        <p>
+        <p class="return-date">
         	<label>
             	Return date:<br/>
-                <input type="date">
+                <input type="text" id="return-date" placeholder="dd-mm-yyyy"/>
             </label>
         </p>
         <p>
@@ -107,7 +119,7 @@
       </div> <!-- booking-form end -->
       <input type="button" value="Search" />
       </form>
-      <p class="center">Want to view an existing booking? <a href="../my-booking.php">Click here</a></p>
+      <p class="center clear-both">Want to view an existing booking? <a href="../my-booking.php">Click here</a></p>
 	</div> <!-- booking-form-middle-box end -->
 </body>
 </html>
