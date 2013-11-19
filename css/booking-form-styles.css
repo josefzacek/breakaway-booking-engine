@@ -18,6 +18,13 @@
 	#booking-form-middle-box-holder {
 		width:100%;
 	}
+	#booking-form-middle-box-holder img {
+		width:40%;
+		height:auto;
+		max-width:252px;
+		display:block;
+		margin:0 auto;
+	}
 	#booking-form-middle-box-holder nav ul {
 		margin:0;
 		padding:0;

@@ -23,13 +23,15 @@
 </head>
 
 <body>
+
+
+
 	<div id="booking-form-middle-box-holder">
-    
+    	<img src="../images/breakawaylogo.gif" alt="Breakaway logo" id="logo">
       <nav>
           <ul>
               <li class="current"><a href="hotels-park-passes.php">Hotels &amp; Park Passes</a></li>
               <li><a href="park-pass-only.php">Park Pass Only</a></li>
-              <li><a href="special-offers.php">Special Offers</a></li>
           </ul>
       </nav>
         <form action="#" method="post">
