@@ -167,30 +167,26 @@
 		border-top: 1px solid #90C900;
 		padding:5px;
 	}
-	#bottom-start-again-back ul li {
-		display:inline;
-		list-style-type: none;
+	#bottom-start-again-back a {
+		width: 80%;
+		height: 15px;
+		background: url(../images/shared/bottom-buttons.jpg) top;
+		display: block;
+		text-align: center;
+		margin: 0 auto;
+		padding: 10px 0px;
+		text-decoration:none;
+		color:#fff;
+		font-size:100%;
+		font-weight:bold;
 	}
-	#back-bt-bottom {
-		display: inline-block;
-		width: 75px;
-		height: 35px;
-		background: url(../images/back-btn-old.png) top;
-		text-indent: -99999px;
-	}
-	#back-bt-bottom:hover {
+	#bottom-start-again-back a:hover {
 		background-position: 0 -35px;
+		color:#90C900;
 	}
-	#start-again-bt-bottom {
-		display: inline-block;
-		width: 127px;
-		height: 35px;
-		background: url(../images/start-btn-old.png) top;
-		text-indent: -99999px;
-	}
-	#start-again-bt-bottom:hover {
-		background-position: 0 -35px;
-	}
+	
+/* footer properties */	
+	
 	footer {
 		border-top: 1px solid #90C900;
 	}
@@ -237,5 +233,13 @@
 		margin-bottom: 1px;
 		margin-top: 1px;
 		float:right;
+	}
+/* start again back buttons bottom */
+	#bottom-start-again-back p {
+		display: inline-block;
+		width: 171px;	
+	}
+	#bottom-start-again-back a {
+		width:100%;
 	}
 }

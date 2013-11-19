@@ -17,7 +17,7 @@
   <div id="navigation">
     <div id="start-again-back">
       <ul>
-        <li><a href="index.php" id="start-again-bt" title="Start again">start again</a></li>
+        <li><a href="booking-form/hotels-park-passes.php" id="start-again-bt" title="Start again">start again</a></li>
         <li><a href="select-hotel.php" id="back-bt" title="Back">Back</a></li>
       </ul>
     </div>
@@ -75,7 +75,11 @@
   
   
   
-  
+  <h1>Select hotel</h1>
+  <h1>Select hotel</h1>
+  <h1>Select hotel</h1>
+  <h1>Select hotel</h1>
+
 
   
   
@@ -83,11 +87,9 @@
 
 
   <div id="bottom-start-again-back">
-    <ul>
-      <li><a href="select-hotel.php" id="back-bt-bottom">Back</a></li>
-      <li><a href="index.php" id="start-again-bt-bottom">Start again</a></li>
-      <li id="proced-to-checkout"><a href="transfers-insurance.php" id="proceed-checkout">Proceed to Checkout</a></li>
-    </ul>
+    <p><a href="select-hotel.php">Back</a></p>
+    <p><a href="booking-form/hotels-park-passes.php">Start again</a></p>
+    <p><a href="transfers-insurance.php">Proceed to Checkout</a></p>
   </div>
   <!-- bottom-start-again-back end -->
   

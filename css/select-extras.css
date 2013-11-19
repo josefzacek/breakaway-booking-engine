@@ -1,6 +1,18 @@
 @charset "utf-8";
 /* CSS Document */
 
+#proceed-checkout {
+	display:block;
+	width: 200px;
+	height: 35px;
+	background: url(../images/select-extras/proceedChk-btn.png) top;
+	text-indent: -99999px;
+}
+#proceed-checkout:hover {
+	background: url(../images/select-extras/proceedChk-btn.png);
+	background-position: 0px 34px;
+}
+	
 
 /* tablet layout*/
 @media only screen and (min-width: 481px) {

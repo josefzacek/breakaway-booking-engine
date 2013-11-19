@@ -18,7 +18,7 @@
   <div id="navigation">
     <div id="start-again-back">
       <ul>
-        <li><a href="index.php" id="start-again-bt" title="Start again">start again</a></li>
+        <li><a href="booking-form/hotels-park-passes.php" id="start-again-bt" title="Start again">start again</a></li>
         <li><a href="please-wait.php" id="back-bt" title="Back">Back</a></li>
       </ul>
     </div>
@@ -754,10 +754,8 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
 
 
   <div id="bottom-start-again-back">
-    <ul>
-      <li><a href="please-wait.php" id="back-bt-bottom">Back</a></li>
-      <li><a href="index.php" id="start-again-bt-bottom">Start again</a></li>
-    </ul>
+      <p><a href="please-wait.php">Back</a></p>
+      <p><a href="booking-form/hotels-park-passes.php">Start again</a></p>
   </div>
   <!-- bottom-start-again-back end -->
   
