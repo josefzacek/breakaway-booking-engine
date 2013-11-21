@@ -3,30 +3,61 @@
 
 /* holder holding extras */
 	.extras-holder {
-		background-color: #90C900;
 		border: 3px solid #90C900;
 		-moz-border-radius: 20px;
 		-webkit-border-radius: 20px;
 		border-radius: 20px;
 		margin: 10px 0;
-		background-image: url(../images/select-hotel/hotelDivbg.png);
 		background-repeat: repeat-x;
 		padding: 0.5% 2%;
 	}
 /* extras header */
 	.extras-holder h2 {
-	 padding: 3px 11px;
-	-moz-border-radius: 20px;
-	-webkit-border-radius: 20px;
-	border-radius: 20px;
-	background-color: #06F;
-	color: #FFF;
+	   padding: 3px 11px;
+	  -moz-border-radius: 20px;
+	  -webkit-border-radius: 20px;
+	  border-radius: 20px;
+	  background-color: #06F;
+	  color: #FFF;
 	 }
+/* extras image */
+  .extras-holder img {
+	  width:100%;
+	  height:auto;
+  }
+  .extras-holder .extras-details-button {
+	  clear:both;
+	  text-align:center;
+  }
+  .extras-holder .extras-details-button a {
+	  height: 15px;
+	  background: url(../images/shared/bottom-buttons.jpg) top;
+	  display: block;
+	  text-align: center;
+	  margin: 0 auto;
+	  padding: 10px 0px;
+	  text-decoration: none;
+	  color: #FFF;
+	  font-size: 100%;
+	  font-weight: bold;
+	  -moz-border-radius: 15px;
+	  -webkit-border-radius: 15px;
+	  border-radius: 15px;
+  }
+  .extras-holder .extras-details-button a:hover {
+	  background-position: 0px 35px;
+	  color: #90C900;	  
+  }
+
 		
 
 /* tablet layout*/
 @media only screen and (min-width: 481px) {
-
+	.extras-holder img {
+		max-width:250px;
+		float:left;
+		padding:0 10px 10px 0;
+	}
 }
 
 /*desktop layout*/
