@@ -1,18 +1,28 @@
 @charset "utf-8";
 /* CSS Document */
 
-#proceed-checkout {
-	display:block;
-	width: 200px;
-	height: 35px;
-	background: url(../images/select-extras/proceedChk-btn.png) top;
-	text-indent: -99999px;
-}
-#proceed-checkout:hover {
-	background: url(../images/select-extras/proceedChk-btn.png);
-	background-position: 0px 34px;
-}
-	
+/* holder holding extras */
+	.extras-holder {
+		background-color: #90C900;
+		border: 3px solid #90C900;
+		-moz-border-radius: 20px;
+		-webkit-border-radius: 20px;
+		border-radius: 20px;
+		margin: 10px 0;
+		background-image: url(../images/select-hotel/hotelDivbg.png);
+		background-repeat: repeat-x;
+		padding: 0.5% 2%;
+	}
+/* extras header */
+	.extras-holder h2 {
+	 padding: 3px 11px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	background-color: #06F;
+	color: #FFF;
+	 }
+		
 
 /* tablet layout*/
 @media only screen and (min-width: 481px) {

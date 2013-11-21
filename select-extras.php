@@ -8,7 +8,7 @@
 
 <!--[if lt IE 9]>
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]--> 
+<![endif]-->
 </head>
 
 <body>
@@ -71,21 +71,21 @@
   <!-- booking-details end -->
   
   <div class="spacer"></div>
+ 
+  <div class="extras-holder">
+    <h2>Character Breakfast 1st Seating 07.30 Disney</h2>
+    <img src="images/select-extras/extras-character-meals.jpg" alt="Hotel extras">
+    <div class="extras-text">
+    	<p>Enjoy a buffet breakfast with Disney characters. 
+Buffet consists of breads,cereals,pastries,scrambled eggs,fruit,juices & hot drinks
+1st Seating at 7.30 am in Cafe Mickey located in Disney Village 
+(Restaurant location subject to change.) Prices Adults & Children (3-11 years) €16.50 Summer 13 and Prices Adults & Children (3-11 years) €16.00 Winter 1314 Infants (0-2) free all dates
+		</p>
+    </div>
+    <!-- extras-text end --> 
+  </div>
+  <!-- extras-holder end -->
   
-  
-  
-  
-  <h1>Select hotel</h1>
-  <h1>Select hotel</h1>
-  <h1>Select hotel</h1>
-  <h1>Select hotel</h1>
-
-
-  
-  
-  
-
-
   <div id="bottom-start-again-back">
     <p><a href="select-hotel.php" title="Back">Back</a></p>
     <p><a href="booking-form/hotels-park-passes.php" title="Start again">Start again</a></p>
@@ -97,5 +97,4 @@
 </div>
 <!-- wrapper end  -->
 </body>
-
 </html>
