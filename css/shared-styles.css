@@ -187,6 +187,14 @@
 		background-position: 0 -35px;
 		color:#90C900;
 	}
+	#bottom-start-again-back .proceed-checkout a {
+		background: url(../images/shared/bottom-buttons-checkout.jpg) top;
+	}
+	#bottom-start-again-back .proceed-checkout a:hover {
+		background-position: 0 -35px;
+	}
+		
+	
 	
 /* footer properties */	
 	
@@ -244,5 +252,8 @@
 	}
 	#bottom-start-again-back a {
 		width:100%;
+	}
+	#bottom-start-again-back .proceed-checkout {
+		float:right;
 	}
 }

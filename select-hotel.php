@@ -189,7 +189,7 @@
     
 
 	<div class="hotel-tab-content">
-       		<div id="tabs-navigation">
+       		<div class="tabs-navigation">
     			<ul>
 					<li class="current">
                     	<span onclick="ChangeTab(this,'div_general','0');">
@@ -349,7 +349,7 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
     
 
 	<div class="hotel-tab-content">
-       		<div id="tabs-navigation">
+       		<div class="tabs-navigation">
     			<ul>
 					<li class="current">
                     	<span onclick="ChangeTab(this,'div_general','1');">
@@ -509,7 +509,7 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
     
 
 	<div class="hotel-tab-content">
-       		<div id="tabs-navigation">
+       		<div class="tabs-navigation">
     			<ul>
 					<li class="current">
                     	<span onclick="ChangeTab(this,'div_general','2');">
@@ -669,7 +669,7 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
     
 
 	<div class="hotel-tab-content">
-       		<div id="tabs-navigation">
+       		<div class="tabs-navigation">
     			<ul>
 					<li class="current">
                     	<span onclick="ChangeTab(this,'div_general','3');">
@@ -754,8 +754,8 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
 
 
   <div id="bottom-start-again-back">
-      <p><a href="please-wait.php">Back</a></p>
-      <p><a href="booking-form/hotels-park-passes.php">Start again</a></p>
+      <p><a href="please-wait.php" title="Back">Back</a></p>
+      <p><a href="booking-form/hotels-park-passes.php" title="Start again">Start again</a></p>
   </div>
   <!-- bottom-start-again-back end -->
   

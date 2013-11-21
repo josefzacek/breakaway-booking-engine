@@ -89,7 +89,7 @@
   <div id="bottom-start-again-back">
     <p><a href="select-hotel.php">Back</a></p>
     <p><a href="booking-form/hotels-park-passes.php">Start again</a></p>
-    <p><a href="transfers-insurance.php">Proceed to Checkout</a></p>
+    <p class="proceed-checkout"><a href="transfers-insurance.php">Proceed to Checkout</a></p>
   </div>
   <!-- bottom-start-again-back end -->
   
