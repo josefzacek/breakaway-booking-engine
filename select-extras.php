@@ -5,10 +5,31 @@
 <title>select extras</title>
 <link rel="stylesheet" type="text/css" href="css/shared-styles.css"/>
 <link rel="stylesheet" type="text/css" href="css/select-extras.css"/>
-
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
 <!--[if lt IE 9]>
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
+
+<script> 
+
+  
+$(document).ready(function() {
+
+  	/* hide all divs inside demo-show2 */
+  	$('.panel').hide();
+  
+  	/* click function for all relevant anchors */
+  	$('.extras-details-button').click(function() {
+   
+		/* setup div variables */
+		var $nextDiv = $(this).next();
+		$nextDiv.slideToggle('div:visible');
+
+	}); 
+    
+});
+  
+</script>
 </head>
 
 <body>
@@ -83,9 +104,35 @@ Buffet consists of breads, cereals, pastries, scrambled eggs, fruit, juices & ho
 (Restaurant location subject to change.) Prices Adults & Children (3-11 years) €16.50 Summer 13 and Prices Adults & Children (3-11 years) €16.00 Winter 1314 Infants (0-2) free all dates
 		</p>
     <!-- extras-text end -->
-     <p class="extras-details-button"><a href="#">View details</a></p>
+     <p class="extras-details-button">View details</p>
+     <div class="panel" style="clear:both;background-color:blue; height:300px;">form goes here</div>
+     <div class="clear-both"></div>
   </div>
   <!-- extras-holder end -->
+  
+  
+  
+  
+  <div class="extras-holder">
+    <h2>Character Breakfast 1st Seating 07.30 Disney</h2>
+    <img src="images/select-extras/extras-character-meals.jpg" alt="Hotel extras">
+  
+    <p class="extras-text">
+    	Enjoy a buffet breakfast with Disney characters. 
+Buffet consists of breads, cereals, pastries, scrambled eggs, fruit, juices & hot drinks
+1st Seating at 7.30 am in Cafe Mickey located in Disney Village 
+(Restaurant location subject to change.) Prices Adults & Children (3-11 years) €16.50 Summer 13 and Prices Adults & Children (3-11 years) €16.00 Winter 1314 Infants (0-2) free all dates
+		</p>
+    <!-- extras-text end -->
+     <p class="extras-details-button">View details</p>
+     <div class="panel" style="clear:both;background-color:blue; display:none; height:300px;">form goes here</div>
+     <div class="clear-both"></div>
+  </div>
+  <!-- extras-holder end -->
+  
+  
+  
+  
   
   <div id="bottom-start-again-back">
     <p><a href="select-hotel.php" title="Back">Back</a></p>

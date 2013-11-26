@@ -28,8 +28,6 @@
   .extras-holder .extras-details-button {
 	  clear:both;
 	  text-align:center;
-  }
-  .extras-holder .extras-details-button a {
 	  height: 15px;
 	  background: url(../images/shared/bottom-buttons.jpg) top;
 	  display: block;
@@ -43,8 +41,9 @@
 	  -moz-border-radius: 15px;
 	  -webkit-border-radius: 15px;
 	  border-radius: 15px;
+	  cursor:pointer;
   }
-  .extras-holder .extras-details-button a:hover {
+  .extras-holder .extras-details-button:hover {
 	  background-position: 0px 35px;
 	  color: #90C900;	  
   }
@@ -62,5 +61,9 @@
 
 /*desktop layout*/
 @media only screen and (min-width: 769px) {
+	.extras-holder .extras-details-button {
+		float:right;
+		width:200px;
+	}
 
 }
