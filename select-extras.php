@@ -16,7 +16,7 @@
 $(document).ready(function() {
 
   	/* hide all divs inside demo-show2 */
-  	$('.panel').hide();
+  	$('.extras-form-holder').hide();
   
   	/* click function for all relevant anchors */
   	$('.extras-details-button').click(function() {
@@ -104,8 +104,12 @@ Buffet consists of breads, cereals, pastries, scrambled eggs, fruit, juices & ho
 (Restaurant location subject to change.) Prices Adults & Children (3-11 years) €16.50 Summer 13 and Prices Adults & Children (3-11 years) €16.00 Winter 1314 Infants (0-2) free all dates
 		</p>
     <!-- extras-text end -->
+    
      <p class="extras-details-button">View details</p>
-     <div class="panel" style="clear:both;background-color:blue; height:300px;">form goes here</div>
+     
+     <div class="extras-form-holder">
+         form goes here
+     </div> <!-- extras-form-holder end -->
      <div class="clear-both"></div>
   </div>
   <!-- extras-holder end -->
@@ -125,7 +129,11 @@ Buffet consists of breads, cereals, pastries, scrambled eggs, fruit, juices & ho
 		</p>
     <!-- extras-text end -->
      <p class="extras-details-button">View details</p>
-     <div class="panel" style="clear:both;background-color:blue; display:none; height:300px;">form goes here</div>
+     
+     <div class="extras-form-holder">
+         form goes here
+     </div> <!-- extras-form-holder end -->
+     
      <div class="clear-both"></div>
   </div>
   <!-- extras-holder end -->

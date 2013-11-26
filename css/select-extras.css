@@ -25,14 +25,14 @@
 	  width:100%;
 	  height:auto;
   }
-  .extras-holder .extras-details-button {
+  .extras-details-button {
 	  clear:both;
 	  text-align:center;
 	  height: 15px;
 	  background: url(../images/shared/bottom-buttons.jpg) top;
 	  display: block;
 	  text-align: center;
-	  margin: 0 auto;
+	  margin: 0 auto 7px auto;
 	  padding: 10px 0px;
 	  text-decoration: none;
 	  color: #FFF;
@@ -43,9 +43,14 @@
 	  border-radius: 15px;
 	  cursor:pointer;
   }
-  .extras-holder .extras-details-button:hover {
+  .extras-details-button:hover {
 	  background-position: 0px 35px;
 	  color: #90C900;	  
+  }
+  .extras-form-holder {
+	  margin:5px 0;
+	  background-color: #90C900;
+	  clear:both;
   }
 
 		
@@ -61,7 +66,7 @@
 
 /*desktop layout*/
 @media only screen and (min-width: 769px) {
-	.extras-holder .extras-details-button {
+	.extras-details-button {
 		float:right;
 		width:200px;
 	}
