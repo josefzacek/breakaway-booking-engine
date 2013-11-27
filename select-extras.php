@@ -108,7 +108,41 @@ Buffet consists of breads, cereals, pastries, scrambled eggs, fruit, juices & ho
      <p class="extras-details-button">View details</p>
      
      <div class="extras-form-holder">
-         form goes here
+         <form action="#" method="post">
+         <span>12/12/2013</span>
+         
+         <label for="adults">Adults:</label>
+           <select id="adults">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+          </select>
+          
+          <label for="kids_7_11"> Kids(7-11):</label>
+           <select id="kids_7_11">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+          </select>
+          
+          <label for="kids_3_6">Kids(3-6):</label>
+           <select id="kids_3_6">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+          </select>
+          
+          <label for="infants">Infants:</label>
+           <select id="infants">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+          </select>
+		</form>
      </div> <!-- extras-form-holder end -->
      <div class="clear-both"></div>
   </div>
