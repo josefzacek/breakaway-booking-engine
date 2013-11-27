@@ -51,6 +51,17 @@
 	  margin:5px 0;
 	  background-color: #90C900;
 	  clear:both;
+	  color:#fff;
+	  padding: 1px 17px 11px;
+  }
+  .extras-form-holder h3 {
+ 		border-bottom: solid 1px;
+  }
+  .extras-form-holder h3:before, .extras-form-holder h3:after {
+	  content:url(../images/select-extras/stars.png);
+  }
+  .date-adult-kids {
+	  border-bottom:solid 1px #fff;
   }
 
 		
