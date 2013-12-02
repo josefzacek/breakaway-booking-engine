@@ -63,6 +63,15 @@
   .date-adult-kids {
 	  border-bottom:solid 1px #fff;
   }
+  .date-adult-kids .date {
+	  display:block;
+	  text-align:center;
+	  font-weight:bold;
+  }
+  .date-adult-kids select {
+	  display:block;
+	  width:100%;
+  }
 
 		
 
@@ -77,6 +86,15 @@
 
 /*desktop layout*/
 @media only screen and (min-width: 769px) {
+	.date-adult-kids .date {
+	  display:inline;
+	  
+  	}
+  	.date-adult-kids select {
+	  display:inline;
+	  width: auto;
+  	}
+  
 	.extras-details-button {
 		float:right;
 		width:200px;

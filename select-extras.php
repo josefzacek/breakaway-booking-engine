@@ -20,13 +20,26 @@ $(document).ready(function() {
   
   	/* click function for all relevant anchors */
   	$('.extras-details-button').click(function() {
-   
+		
+		/* change button text */
+		if ($(this).text() == "View details") 
+		    { 
+		       $(this).text("Hide details"); 
+		    } 
+		    else 
+		    { 
+		       $(this).text("View details"); 
+		    }; 
+		
+		
 		/* setup div variables */
 		var $nextDiv = $(this).next();
 		$nextDiv.slideToggle('div:visible');
 
 	}); 
-    
+	
+		  	
+		      
 });
   
 </script>
@@ -112,7 +125,7 @@ Buffet consists of breads, cereals, pastries, scrambled eggs, fruit, juices & ho
          <form action="#" method="post">
          
          <div class="date-adult-kids">
-         <span>12/12/2013</span>
+         <span class="date">12/12/2013</span>
          <label for="adults">Adults:</label>
            <select id="adults">
               <option value="1">1</option>
@@ -147,8 +160,8 @@ Buffet consists of breads, cereals, pastries, scrambled eggs, fruit, juices & ho
           <input type="button" value="Add to booking ">
         </div> <!-- date-adult-kids end -->
         
-                 <div class="date-adult-kids">
-         <span>12/12/2013</span>
+                  <div class="date-adult-kids">
+         <span class="date">12/12/2013</span>
          <label for="adults">Adults:</label>
            <select id="adults">
               <option value="1">1</option>
@@ -182,9 +195,9 @@ Buffet consists of breads, cereals, pastries, scrambled eggs, fruit, juices & ho
           </select>
           <input type="button" value="Add to booking ">
         </div> <!-- date-adult-kids end -->
-
+        
          <div class="date-adult-kids">
-         <span>12/12/2013</span>
+         <span class="date">12/12/2013</span>
          <label for="adults">Adults:</label>
            <select id="adults">
               <option value="1">1</option>
