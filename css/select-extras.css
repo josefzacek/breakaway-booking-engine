@@ -53,6 +53,9 @@
 	  clear:both;
 	  color:#fff;
 	  padding: 1px 17px 11px;
+	  -moz-border-radius: 15px;
+	  -webkit-border-radius: 15px;
+	  border-radius: 15px;
   }
   .extras-form-holder h3 {
  		border-bottom: solid 1px;
@@ -72,6 +75,15 @@
 	  display:block;
 	  width:100%;
   }
+  .extras-price {
+	  text-align:center;
+  }
+  
+  .extras-price .add-price {
+	  font-weight: bold;
+	  padding-left: 50px;
+	font-size: 125%;
+		  }
 
 		
 
@@ -86,10 +98,15 @@
 
 /*desktop layout*/
 @media only screen and (min-width: 769px) {
+	
 	.date-adult-kids .date {
 	  display:inline;
 	  
   	}
+	
+	.date-adult-kids {
+		text-align: center;
+	}
   	.date-adult-kids select {
 	  display:inline;
 	  width: auto;

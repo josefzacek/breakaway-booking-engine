@@ -193,8 +193,14 @@ Buffet consists of breads, cereals, pastries, scrambled eggs, fruit, juices & ho
               <option value="3">3</option>
               <option value="4">4</option>
           </select>
-          <input type="button" value="Add to booking ">
+          <input type="button" value="Add to booking ">    
+          
         </div> <!-- date-adult-kids end -->
+        
+        
+        
+        
+        
         
          <div class="date-adult-kids">
          <span class="date">12/12/2013</span>
@@ -233,7 +239,13 @@ Buffet consists of breads, cereals, pastries, scrambled eggs, fruit, juices & ho
         </div> <!-- date-adult-kids end -->
 
 	   </form>
+       
+       	<div class="extras-price">
+       		<p>Additional Price: <span class="add-price">&euro;65</span></p>    
+     	</div> <!-- extras-price end -->
+        
    </div> <!-- extras-form-holder end -->
+   
      <div class="clear-both"></div>
   </div>
   <!-- extras-holder end -->
@@ -241,7 +253,7 @@ Buffet consists of breads, cereals, pastries, scrambled eggs, fruit, juices & ho
   
   
   
-  <div class="extras-holder">
+    <div class="extras-holder">
     <h2>Character Breakfast 1st Seating 07.30 Disney</h2>
     <img src="images/select-extras/extras-character-meals.jpg" alt="Hotel extras">
   
@@ -252,29 +264,424 @@ Buffet consists of breads, cereals, pastries, scrambled eggs, fruit, juices & ho
 (Restaurant location subject to change.) Prices Adults & Children (3-11 years) €16.50 Summer 13 and Prices Adults & Children (3-11 years) €16.00 Winter 1314 Infants (0-2) free all dates
 		</p>
     <!-- extras-text end -->
+    
      <p class="extras-details-button">View details</p>
      
      <div class="extras-form-holder">
-         form goes here
-     </div> <!-- extras-form-holder end -->
-     
+     <h3>Available Dates</h3>
+         <form action="#" method="post">
+         
+         <div class="date-adult-kids">
+         <span class="date">12/12/2013</span>
+         <label for="adults">Adults:</label>
+           <select id="adults">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+          </select>
+          
+          <label for="kids_7_11"> Kids(7-11):</label>
+           <select id="kids_7_11">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+          </select>
+          
+          <label for="kids_3_6">Kids(3-6):</label>
+           <select id="kids_3_6">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+          </select>
+          
+          <label for="infants">Infants:</label>
+           <select id="infants">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+          </select>
+          <input type="button" value="Add to booking ">
+        </div> <!-- date-adult-kids end -->
+        
+                  <div class="date-adult-kids">
+         <span class="date">12/12/2013</span>
+         <label for="adults">Adults:</label>
+           <select id="adults">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+          </select>
+          
+          <label for="kids_7_11"> Kids(7-11):</label>
+           <select id="kids_7_11">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+          </select>
+          
+          <label for="kids_3_6">Kids(3-6):</label>
+           <select id="kids_3_6">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+          </select>
+          
+          <label for="infants">Infants:</label>
+           <select id="infants">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+          </select>
+          <input type="button" value="Add to booking ">    
+          
+        </div> <!-- date-adult-kids end -->
+        
+        
+        
+        
+        
+        
+         <div class="date-adult-kids">
+         <span class="date">12/12/2013</span>
+         <label for="adults">Adults:</label>
+           <select id="adults">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+          </select>
+          
+          <label for="kids_7_11"> Kids(7-11):</label>
+           <select id="kids_7_11">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+          </select>
+          
+          <label for="kids_3_6">Kids(3-6):</label>
+           <select id="kids_3_6">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+          </select>
+          
+          <label for="infants">Infants:</label>
+           <select id="infants">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+          </select>
+          <input type="button" value="Add to booking ">
+        </div> <!-- date-adult-kids end -->
+
+	   </form>
+       
+       	<div class="extras-price">
+       		<p>Additional Price: <span class="add-price">&euro;65</span></p>    
+     	</div> <!-- extras-price end -->
+        
+   </div> <!-- extras-form-holder end -->
+   
      <div class="clear-both"></div>
   </div>
   <!-- extras-holder end -->
   
   
+    <div class="extras-holder">
+    <h2>Character Breakfast 1st Seating 07.30 Disney</h2>
+    <img src="images/select-extras/extras-character-meals.jpg" alt="Hotel extras">
   
-  
-  
-  <div id="bottom-start-again-back">
-    <p><a href="select-hotel.php" title="Back">Back</a></p>
-    <p><a href="booking-form/hotels-park-passes.php" title="Start again">Start again</a></p>
-    <p class="proceed-checkout"><a href="transfers-insurance.php" title="Proceed to Checkout">Proceed to Checkout</a></p>
+    <p class="extras-text">
+    	Enjoy a buffet breakfast with Disney characters. 
+Buffet consists of breads, cereals, pastries, scrambled eggs, fruit, juices & hot drinks
+1st Seating at 7.30 am in Cafe Mickey located in Disney Village 
+(Restaurant location subject to change.) Prices Adults & Children (3-11 years) €16.50 Summer 13 and Prices Adults & Children (3-11 years) €16.00 Winter 1314 Infants (0-2) free all dates
+		</p>
+    <!-- extras-text end -->
+    
+     <p class="extras-details-button">View details</p>
+     
+     <div class="extras-form-holder">
+     <h3>Available Dates</h3>
+         <form action="#" method="post">
+         
+         <div class="date-adult-kids">
+         <span class="date">12/12/2013</span>
+         <label for="adults">Adults:</label>
+           <select id="adults">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+          </select>
+          
+          <label for="kids_7_11"> Kids(7-11):</label>
+           <select id="kids_7_11">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+          </select>
+          
+          <label for="kids_3_6">Kids(3-6):</label>
+           <select id="kids_3_6">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+          </select>
+          
+          <label for="infants">Infants:</label>
+           <select id="infants">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+          </select>
+          <input type="button" value="Add to booking ">
+        </div> <!-- date-adult-kids end -->
+        
+                  <div class="date-adult-kids">
+         <span class="date">12/12/2013</span>
+         <label for="adults">Adults:</label>
+           <select id="adults">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+          </select>
+          
+          <label for="kids_7_11"> Kids(7-11):</label>
+           <select id="kids_7_11">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+          </select>
+          
+          <label for="kids_3_6">Kids(3-6):</label>
+           <select id="kids_3_6">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+          </select>
+          
+          <label for="infants">Infants:</label>
+           <select id="infants">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+          </select>
+          <input type="button" value="Add to booking ">    
+          
+        </div> <!-- date-adult-kids end -->
+        
+        
+        
+        
+        
+        
+         <div class="date-adult-kids">
+         <span class="date">12/12/2013</span>
+         <label for="adults">Adults:</label>
+           <select id="adults">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+          </select>
+          
+          <label for="kids_7_11"> Kids(7-11):</label>
+           <select id="kids_7_11">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+          </select>
+          
+          <label for="kids_3_6">Kids(3-6):</label>
+           <select id="kids_3_6">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+          </select>
+          
+          <label for="infants">Infants:</label>
+           <select id="infants">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+          </select>
+          <input type="button" value="Add to booking ">
+        </div> <!-- date-adult-kids end -->
+
+	   </form>
+       
+       	<div class="extras-price">
+       		<p>Additional Price: <span class="add-price">&euro;65</span></p>    
+     	</div> <!-- extras-price end -->
+        
+   </div> <!-- extras-form-holder end -->
+   
+     <div class="clear-both"></div>
   </div>
-  <!-- bottom-start-again-back end -->
+  <!-- extras-holder end -->
   
-  <?php include("shared-html/footer.php"); ?>
-</div>
-<!-- wrapper end  -->
-</body>
-</html>
+    <div class="extras-holder">
+    <h2>Character Breakfast 1st Seating 07.30 Disney</h2>
+    <img src="images/select-extras/extras-character-meals.jpg" alt="Hotel extras">
+  
+    <p class="extras-text">
+    	Enjoy a buffet breakfast with Disney characters. 
+Buffet consists of breads, cereals, pastries, scrambled eggs, fruit, juices & hot drinks
+1st Seating at 7.30 am in Cafe Mickey located in Disney Village 
+(Restaurant location subject to change.) Prices Adults & Children (3-11 years) €16.50 Summer 13 and Prices Adults & Children (3-11 years) €16.00 Winter 1314 Infants (0-2) free all dates
+		</p>
+    <!-- extras-text end -->
+    
+     <p class="extras-details-button">View details</p>
+     
+     <div class="extras-form-holder">
+     <h3>Available Dates</h3>
+         <form action="#" method="post">
+         
+         <div class="date-adult-kids">
+         <span class="date">12/12/2013</span>
+         <label for="adults">Adults:</label>
+           <select id="adults">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+          </select>
+          
+          <label for="kids_7_11"> Kids(7-11):</label>
+           <select id="kids_7_11">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+          </select>
+          
+          <label for="kids_3_6">Kids(3-6):</label>
+           <select id="kids_3_6">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+          </select>
+          
+          <label for="infants">Infants:</label>
+           <select id="infants">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+          </select>
+          <input type="button" value="Add to booking ">
+        </div> <!-- date-adult-kids end -->
+        
+                  <div class="date-adult-kids">
+         <span class="date">12/12/2013</span>
+         <label for="adults">Adults:</label>
+           <select id="adults">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+          </select>
+          
+          <label for="kids_7_11"> Kids(7-11):</label>
+           <select id="kids_7_11">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+          </select>
+          
+          <label for="kids_3_6">Kids(3-6):</label>
+           <select id="kids_3_6">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+          </select>
+          
+          <label for="infants">Infants:</label>
+           <select id="infants">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+          </select>
+          <input type="button" value="Add to booking ">    
+          
+        </div> <!-- date-adult-kids end -->
+        
+        
+        
+        
+        
+        
+         <div class="date-adult-kids">
+         <span class="date">12/12/2013</span>
+         <label for="adults">Adults:</label>
+           <select id="adults">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+          </select>
+          
+          <label for="kids_7_11"> Kids(7-11):</label>
+           <select id="kids_7_11">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+          </select>
+          
+          <label for="kids_3_6">Kids(3-6):</label>
+           <select id="kids_3_6">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+          </select>
+          
+          <label for="infants">Infants:</label>
+           <select id="infants">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+          </select>
+          <input type="button" value="Add to booking ">
+        </div> <!-- date-adult-kids end -->
+
+	   </form>
+       
+       	<div class="extras-price">
+       		<p>Additional Price: <span class="add-price">&euro;65</span></p>    
+     	</div> <!-- extras-price end -->
+        
+   </div> <!-- extras-form-holder end -->
+   
+     <div class="clear-both"></div>
+  </div>
+  <!-- extras-holder end -->
