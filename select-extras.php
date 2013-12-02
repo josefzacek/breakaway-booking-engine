@@ -685,3 +685,17 @@ Buffet consists of breads, cereals, pastries, scrambled eggs, fruit, juices & ho
      <div class="clear-both"></div>
   </div>
   <!-- extras-holder end -->
+  
+  
+  <div id="bottom-start-again-back">
+    <p><a href="select-hotel.php" title="Back">Back</a></p>
+    <p><a href="booking-form/hotels-park-passes.php" title="Start again">Start again</a></p>
+    <p class="proceed-checkout"><a href="transfers-insurance.php" title="Proceed to Checkout">Proceed to Checkout</a></p>
+  </div>
+  <!-- bottom-start-again-back end -->
+  
+  <?php include("shared-html/footer.php"); ?>
+</div>
+<!-- wrapper end  -->
+</body>
+</html>
