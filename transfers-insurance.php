@@ -75,7 +75,9 @@
   <div class="spacer"></div>
  
 
-<h1>transfers and insurance</h1>
+<div class="insurance-banner">
+<img src="images/transfers-insurance/transfers-splash.jpg" alt="Breakaway Travel Insurance" class="img-resizable"/>
+</div> <!-- insurance-banner end -->
 
 
   

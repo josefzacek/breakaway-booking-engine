@@ -60,6 +60,13 @@
 		clear: both;
 		border-top: 1px solid #90C900;
 	}
+/* resizable image */
+	.img-resizable {
+		width:100%;
+		height:auto;
+		display:block;
+	}
+	
 	body {
 		font-size: 80%;
 		color: #666;
