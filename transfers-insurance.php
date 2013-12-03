@@ -5,10 +5,19 @@
 <title>transfers and insurance</title>
 <link rel="stylesheet" type="text/css" href="css/shared-styles.css"/>
 <link rel="stylesheet" type="text/css" href="css/transfers-insurance.css"/>
+<link rel="stylesheet"  type="text/css" href="css/jquery-calendar.css" />
 <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
 <!--[if lt IE 9]>
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
+<!-- jQuery callendar  -->
+<script>
+  $(function() {
+    $( "#departure-date").datepicker({ dateFormat: "dd-mm-yy"});
+	$( "#return-date").datepicker({ dateFormat: "dd-mm-yy"});
+  });
+  </script>
 
 
 </head>
@@ -81,19 +90,52 @@
 
 <div class="transfers-holder">
 	<h3>Transfers</h3>
+    <form action="#" method="post">
+    <div class="transfers-options">
+    <p><b>Transfers options:</b></p>
     
-    <div class="option-options">
-    elect some extras with your stay to make your trip more enjoyable. Breakaway wishes you a great holiday at Disneyland Paris!
+	<input type="checkbox" name="not-required" value="not-required">Transfers Not Required
+    
+    <select>
+      <option value="coach-transfer">Coach Transfers from Paris CDG</option>
+      <option value="shared-shuttle">Shared Shuttle Beauvais to Disney </option>
+      <option value="private-transfer">Private Transfers from CDG Airport</option>
+    </select>
+    
+    <p><b>Transfers type:</b></p>
+    
+    <select>
+      <option value="return">Return</option>
+      <option value="one-way">One-Way </option>
+    </select>
+    
+    <p class="small-text-10 black">Transfer prices are from Paris Charles de Gaulle Airport to/from Disneyland Paris. For transfers from other airports (Beauvais or Orly) please contact us.</p>
+    
+    <p><a href="#">View Coach Transfer Time Table</a></p>
+    <p><a href="#">View Transfer information</a></p>
+
     </div> <!-- option-options end -->
     
     <div class="stay-dates">
-    elect some extras with your stay to make your trip more enjoyable. Breakaway wishes you a great holiday at Disneyland Paris!
+    <p><b>Select departure and return dates:</b></p>
+    <p><b>Depart:</b></p>
+    <label>
+            	Departure date:<br/>
+                <input type="text" id="departure-date" placeholder="dd-mm-yyyy"  />
+            </label>
+    
+    <p><b>Arrive:</b></p>
+    <label>
+            	Return date:<br/>
+                <input type="text" id="return-date" placeholder="dd-mm-yyyy"/>
+            </label>
     </div> <!-- stay-dates end -->
     
     <div class="no-transfers">
+    <p><b>Number of Transfers</b></p>
     elect some extras with your stay to make your trip more enjoyable. Breakaway wishes you a great holiday at Disneyland Paris!
     </div> <!-- no-transfers end -->
-    
+    </form>
     <div class="transfers-price">
        		<p>Additional Price: <span class="add-price">€65</span></p>    
      	</div>

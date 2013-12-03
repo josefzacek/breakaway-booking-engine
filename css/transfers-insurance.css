@@ -19,6 +19,12 @@
 .transfers-holder h3:before, .transfers-holder h3:after {
 content: url(../images/select-extras/stars.png);
 }
+.transfers-options {
+	border-bottom:1px solid #fff;
+}
+.stay-dates {
+	border-bottom:1px solid #fff;
+}
 
 /* tablet layout*/
 @media only screen and (min-width: 481px) {
