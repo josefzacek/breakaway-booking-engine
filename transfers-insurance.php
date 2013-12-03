@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>select extras</title>
+<title>transfers and insurance</title>
 <link rel="stylesheet" type="text/css" href="css/shared-styles.css"/>
 <link rel="stylesheet" type="text/css" href="css/transfers-insurance.css"/>
 <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
@@ -30,7 +30,7 @@
     <div class="clear-both"></div>
   </div>
   <!-- navigation end -->
-  <p>Select some extras with your stay to make your trip more enjoyable. Breakaway wishes you a great holiday at Disneyland Paris!</p>
+
   <div class="spacer"></div>
   <div id="booking-details">
     <div id="booking-details-left">
@@ -79,7 +79,27 @@
 <img src="images/transfers-insurance/transfers-splash.jpg" alt="Breakaway Travel Insurance" class="img-resizable"/>
 </div> <!-- insurance-banner end -->
 
-
+<div class="transfers-holder">
+	<h3>Transfers</h3>
+    
+    <div class="option-options">
+    elect some extras with your stay to make your trip more enjoyable. Breakaway wishes you a great holiday at Disneyland Paris!
+    </div> <!-- option-options end -->
+    
+    <div class="stay-dates">
+    elect some extras with your stay to make your trip more enjoyable. Breakaway wishes you a great holiday at Disneyland Paris!
+    </div> <!-- stay-dates end -->
+    
+    <div class="no-transfers">
+    elect some extras with your stay to make your trip more enjoyable. Breakaway wishes you a great holiday at Disneyland Paris!
+    </div> <!-- no-transfers end -->
+    
+    <div class="transfers-price">
+       		<p>Additional Price: <span class="add-price">€65</span></p>    
+     	</div>
+    
+</div> 
+<!-- transfers-holder end -->
   
   
   <div id="bottom-start-again-back">
