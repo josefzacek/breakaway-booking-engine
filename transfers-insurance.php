@@ -116,8 +116,8 @@
     <p class="small-text-10 black">Transfer prices are from Paris Charles de Gaulle Airport to/from Disneyland Paris. For transfers from other airports (Beauvais or Orly) please contact us.</p>
     
     <ul>
-    <li><a href="#">View Coach Transfer Time Table</a></li>
-    <li><a href="#">View Transfer information</a></li>
+    <li><a href="#" title="View Coach Transfer Time Table">View Coach Transfer Time Table</a></li>
+    <li><a href="#" title="View Transfer information">View Transfer information</a></li>
 	</ul>
     </div> <!-- option-options end -->
     
@@ -187,9 +187,9 @@
     
     </form>
     <ul>
-    	<li><a href="#">Policy document</a></li>
-    	<li><a href="">Standars Policy key facts</a></li>
-    	<li><a href="">Premium Policy key facts</a></li>
+    	<li><a href="#" title="Policy document">Policy document</a></li>
+    	<li><a href="#" title="Standars Policy key facts">Standars Policy key facts</a></li>
+    	<li><a href="#" title="Premium Policy key facts">Premium Policy key facts</a></li>
     </ul>
     
     <div class="insurance-price">
