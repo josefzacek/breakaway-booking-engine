@@ -92,48 +92,72 @@
 	<h3>Transfers</h3>
     <form action="#" method="post">
     <div class="transfers-options">
-    <p><b>Transfers options:</b></p>
+    <p><b>Transfers options:</b><p/>
     
-	<input type="checkbox" name="not-required" value="not-required">Transfers Not Required
+    <label>
+    	<input type="checkbox" name="not-required" value="not-required">
+        Transfers Not Required
+    </label>
     
-    <select>
-      <option value="coach-transfer">Coach Transfers from Paris CDG</option>
-      <option value="shared-shuttle">Shared Shuttle Beauvais to Disney </option>
-      <option value="private-transfer">Private Transfers from CDG Airport</option>
-    </select>
+    <label>Type of transfer:
+      <select>
+        <option value="coach-transfer">Coach Transfers from Paris CDG</option>
+        <option value="shared-shuttle">Shared Shuttle Beauvais to Disney </option>
+        <option value="private-transfer">Private Transfers from CDG Airport</option>
+      </select>
+    </label>
     
-    <p><b>Transfers type:</b></p>
-    
-    <select>
-      <option value="return">Return</option>
-      <option value="one-way">One-Way </option>
-    </select>
-    
+    <label>Transfers type:
+      <select>
+        <option value="return">Return</option>
+        <option value="one-way">One-Way </option>
+      </select>
+    </label>
     <p class="small-text-10 black">Transfer prices are from Paris Charles de Gaulle Airport to/from Disneyland Paris. For transfers from other airports (Beauvais or Orly) please contact us.</p>
     
-    <p><a href="#">View Coach Transfer Time Table</a></p>
-    <p><a href="#">View Transfer information</a></p>
-
+    <ul>
+    <li><a href="#">View Coach Transfer Time Table</a></li>
+    <li><a href="#">View Transfer information</a></li>
+	</ul>
     </div> <!-- option-options end -->
     
     <div class="stay-dates">
-    <p><b>Select departure and return dates:</b></p>
-    <p><b>Depart:</b></p>
-    <label>
-            	Departure date:<br/>
-                <input type="text" id="departure-date" placeholder="dd-mm-yyyy"  />
-            </label>
+      <p><b>Select departure and return dates:</b></p>
+    	<label>Departure date:
+            <input type="text" id="departure-date" placeholder="dd-mm-yyyy"/>
+        </label>
     
-    <p><b>Arrive:</b></p>
-    <label>
-            	Return date:<br/>
-                <input type="text" id="return-date" placeholder="dd-mm-yyyy"/>
-            </label>
+    	<label>Return date:
+            <input type="text" id="return-date" placeholder="dd-mm-yyyy"/>
+        </label>
     </div> <!-- stay-dates end -->
     
     <div class="no-transfers">
-    <p><b>Number of Transfers</b></p>
-    elect some extras with your stay to make your trip more enjoyable. Breakaway wishes you a great holiday at Disneyland Paris!
+    <p><b>Number of Transfers:</b></p>
+    
+    <label>Adults:
+     <select>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+      </select>
+    </label>
+    
+    <label>Kids:
+      <select>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+      </select>
+    </label>
+    
+    <label>Infants:
+      <select>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+      </select>
+    </label>
     </div> <!-- no-transfers end -->
     </form>
     <div class="transfers-price">
@@ -142,6 +166,37 @@
     
 </div> 
 <!-- transfers-holder end -->
+
+<div class="insurance-holder">
+	<h3>Insurance</h3>
+    <form action="#" method="post">
+      <div class="insurance-options">
+      <label>
+        <input type="radio" name="sex" value="not-required">
+        Not Required
+      </label>
+      <label>
+        <input type="radio" name="sex" value="standard-policy">
+        Standard Policy
+      </label>
+      <label>
+        <input type="radio" name="sex" value="premier-cover">
+       	Premier Cover
+      </label>
+      </div> <!-- insurance-options end -->
+    
+    </form>
+    <ul>
+    	<li><a href="#">Policy document</a></li>
+    	<li><a href="">Standars Policy key facts</a></li>
+    	<li><a href="">Premium Policy key facts</a></li>
+    </ul>
+    
+    <div class="insurance-price">
+       	<p>Additional Price: <span class="add-price">€65</span></p>    
+    </div>    
+</div> 
+<!-- insurance-holder end -->
   
   
   <div id="bottom-start-again-back">

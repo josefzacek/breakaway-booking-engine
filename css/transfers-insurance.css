@@ -25,6 +25,42 @@ content: url(../images/select-extras/stars.png);
 .stay-dates {
 	border-bottom:1px solid #fff;
 }
+.no-transfers {
+	border-bottom:1px solid #fff;
+}
+.transfers-price {
+	text-align:center;
+}
+.transfers-price .add-price {
+	  font-weight: bold;
+	  padding-left: 50px;
+	font-size: 125%;
+}
+
+/*insurance tab*/
+.insurance-holder {
+	background-color: #52A4F7;
+	color: #FFF;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	margin: 5px 0;
+	padding: 1px 17px 11px;
+}
+.insurance-holder h3:before, .insurance-holder h3:after {
+content: url(../images/transfers-insurance/stars-blue.png);
+}
+.insurance-holder h3 {
+	border-bottom:solid 1px;
+}
+.insurance-price {
+	text-align:center;
+}
+.insurance-price .add-price {
+	  font-weight: bold;
+	  padding-left: 50px;
+	font-size: 125%;
+}
 
 /* tablet layout*/
 @media only screen and (min-width: 481px) {
