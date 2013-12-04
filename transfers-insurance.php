@@ -172,15 +172,15 @@
     <form action="#" method="post">
       <div class="insurance-options">
       <label>
-        <input type="radio" name="sex" value="not-required">
+        <input type="radio" name="insurance" value="not-required" checked>
         Not Required
       </label>
       <label>
-        <input type="radio" name="sex" value="standard-policy">
+        <input type="radio" name="insurance" value="standard-policy">
         Standard Policy
       </label>
       <label>
-        <input type="radio" name="sex" value="premier-cover">
+        <input type="radio" name="insurance" value="premier-cover">
        	Premier Cover
       </label>
       </div> <!-- insurance-options end -->
