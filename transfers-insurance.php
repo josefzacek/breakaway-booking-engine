@@ -175,20 +175,62 @@
     <form action="#" method="post">
       <div class="insurance-options">
       <label>
-        <input type="radio" name="insurance" value="not-required" checked>
+        <input type="radio" name="insurance" value="not-required" id="not-required"  checked>
         Not Required
       </label>
       <label>
-        <input type="radio" name="insurance" value="standard-policy">
+        <input type="radio" name="insurance" value="standard-policy" id="standard-policy">
         Standard Policy
       </label>
       <label>
-        <input type="radio" name="insurance" value="premier-cover">
+        <input type="radio" name="insurance" value="premier-cover" id="premier-cover">
        	Premier Cover
       </label>
       </div> <!-- insurance-options end -->
     
+       
+    <div id="insured-persons">
+    <h3>Insured persons</h3>
+    <label>Adults(17 and Over):
+    	<select>
+        	<option value="0">0</option>
+    		<option value="1">1</option>
+    		<option value="2">2</option>
+    		<option value="3">3</option>
+    	</select>
+     </label>
+     
+     <label>Children(12 - 16): 
+    	<select>
+        	<option value="0">0</option>
+    		<option value="1">1</option>
+    		<option value="2">2</option>
+    		<option value="3">3</option>
+    	</select>
+     </label>
+     
+       <label> Children(2 - 11):  
+    	<select>
+        	<option value="0">0</option>
+    		<option value="1">1</option>
+    		<option value="2">2</option>
+    		<option value="3">3</option>
+    	</select>
+     </label>
+     
+       <label> Children(0 - 1):
+    	<select>
+        	<option value="0">0</option>
+    		<option value="1">1</option>
+    		<option value="2">2</option>
+    		<option value="3">3</option>
+    	</select>
+     </label>
+     
+     
+    </div>   <!-- insured-persons end -->
     </form>
+    
     <ul>
     	<li><a href="#" title="Policy document">Policy document</a></li>
     	<li><a href="#" title="Standars Policy key facts">Standars Policy key facts</a></li>
@@ -197,7 +239,9 @@
     
     <div class="insurance-price">
        	<p>Additional Price: <span class="add-price">€65</span></p>    
-    </div>    
+    </div> 
+    
+    
 </div> 
 <!-- insurance-holder end -->
   
@@ -212,6 +256,26 @@
   <?php include("shared-html/footer.php"); ?>
 </div>
 <!-- wrapper end  -->
+<script>
+$(document).ready(function() {
+	/* hide insured persons*/
+	$('#not-required').click(function() {
+       $('#insured-persons').hide('slow')
+      });
+	/* show insured persons*/  
+	$('#standard-policy').click(function() {
+       $('#insured-persons').show('slow')
+      });
+	/* show insured persons*/  
+	$('#premier-cover').click(function() {
+       $('#insured-persons').show('slow')
+      });
+
+});
+
+</script>
+
+
 </body>
 
 </html>

@@ -89,6 +89,15 @@ cursor:pointer;
 	  padding-left: 50px;
 	font-size: 125%;
 }
+/* insured persons*/
+#insured-persons {
+	display:none;
+}
+#insured-persons select {
+	display: block;
+	width: 100%;
+
+}
 
 /* tablet layout*/
 @media only screen and (min-width: 481px) {
@@ -140,6 +149,7 @@ cursor:pointer;
 	 border-top: solid 1px;
 	 margin-top:10px;
   }
+  /*insurance */
   .insurance-holder ul {
 	  text-align: center;
 		margin-top: 10px;
@@ -152,6 +162,15 @@ cursor:pointer;
 	 clear:both;
 	 border-top: solid 1px;
 	 margin-top:10px;
+  }
+  /*insured peosons*/
+  #insured-persons label {
+	  display:inline;
+	  border:none;
+  }
+  #insured-persons select {
+	  width:auto;
+	  display:inline;
   }
   
 }
