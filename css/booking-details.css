@@ -1,6 +1,33 @@
 @charset "utf-8";
 /* CSS Document */
 
-.booo {
-	color:#FF0;
+.final-booking-details {
+	background-color: #639DFD;
+	border: 3px solid #03C;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	padding:0.5%;
+	margin:0.5%;
+	color:#fff;
+}
+.final-booking-details h3 {
+	text-align:center; 
+}
+.final-booking-details table {
+	width:100%;
+	border-bottom:1px solid;
+	border-top:1px solid;
+}
+.final-booking-details table tr td{
+	padding:2px 0;
+	width:50%;
+}
+
+
+
+
+.img-holder img {
+	display:block;
+	margin:3px auto;
 }
