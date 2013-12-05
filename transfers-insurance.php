@@ -92,7 +92,7 @@
 	<h3>Transfers</h3>
     <form action="#" method="post">
     <div class="transfers-options">
-    <p><b>Transfers options:</b><p/>
+    <p><b>Transfers options:</b></p>
     
     <label>
     	<input type="checkbox" name="not-required" value="not-required">
@@ -115,10 +115,7 @@
     </label>
     <p class="small-text-10 black">Transfer prices are from Paris Charles de Gaulle Airport to/from Disneyland Paris. For transfers from other airports (Beauvais or Orly) please contact us.</p>
     
-    <ul>
-    <li><a href="#" title="View Coach Transfer Time Table">View Coach Transfer Time Table</a></li>
-    <li><a href="#" title="View Transfer information">View Transfer information</a></li>
-	</ul>
+    
     </div> <!-- option-options end -->
     
     <div class="stay-dates">
@@ -160,6 +157,12 @@
     </label>
     </div> <!-- no-transfers end -->
     </form>
+    
+    <ul>
+    <li><a href="#" title="View Coach Transfer Time Table">View Coach Transfer Time Table</a></li>
+    <li><a href="#" title="View Transfer information">View Transfer information</a></li>
+	</ul>
+    
     <div class="transfers-price">
        		<p>Additional Price: <span class="add-price">€65</span></p>    
      	</div>

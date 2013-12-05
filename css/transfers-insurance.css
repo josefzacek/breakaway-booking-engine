@@ -105,5 +105,53 @@ cursor:pointer;
 
 /*desktop layout*/
 @media only screen and (min-width: 769px) {
-
+	.transfers-holder label {
+		border:none;
+		padding-left: 0;
+	}
+	.transfers-holder ul{
+		clear:both;
+		text-align:center;
+		
+	}
+	.transfers-holder ul li {
+		display:inline;
+	}
+  .transfers-options {
+	  width:39%;
+	  padding:0.5%;
+	  float:left;
+	  border:none;
+  }
+  .stay-dates {
+	  width:28.5%;
+	  padding:0.5%;
+	  float:left;
+	  border:none;
+  }
+  .no-transfers {
+	  width:29%;
+	  padding:0.5%;
+	  float:left;
+	  border:none;
+  }
+  .transfers-price {
+	 clear:both;
+	 border-top: solid 1px;
+	 margin-top:10px;
+  }
+  .insurance-holder ul {
+	  text-align: center;
+		margin-top: 10px;
+  }
+  
+  .insurance-holder ul li {
+	  display:inline;
+  }
+  .insurance-price {
+	 clear:both;
+	 border-top: solid 1px;
+	 margin-top:10px;
+  }
+  
 }
