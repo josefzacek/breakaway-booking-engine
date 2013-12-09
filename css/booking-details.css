@@ -1,6 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
+/* final booking details*/
 .final-booking-details {
 	background-color: #639DFD;
 	border: 3px solid #03C;
@@ -25,8 +26,28 @@
 }
 
 
+/* payment details */
+.payment-details h3{
+	padding: 3px 11px;
+-moz-border-radius: 20px;
+-webkit-border-radius: 20px;
+border-radius: 20px;
+background-color: #90C900;
+color: #FFF;
+}
+.payment-details label, .payment-details input {
+	display:block;
+	width:100%;
+}
+.payment-details textarea {
+	display:block;
+	width:100%;
+	height:100px;
+}
 
 
+
+/* images */
 .img-holder img {
 	display:block;
 	margin:3px auto;

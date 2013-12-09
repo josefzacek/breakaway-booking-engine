@@ -101,6 +101,7 @@
   		<td><b>&euro;1122</b></td>
   	</tr>
   </table>
+  <p class="small-text-10">*All hotel bookings include continental breakfast(except Davy Crockett)</p>
   </div> <!-- final-booking-details end -->
  
  
@@ -114,12 +115,80 @@ If you wish to save the quote details and return to complete the booking later t
 </div> <!-- img-holder end -->
 
 
+<form action="#" method="post">
 <div class="payment-details">
 
-payment-details
+<!-- names-->
+<h3>Names as per passport</h3>
+<label>Title: <span><sup>*</sup></span>
+<input type="text" name="title" required>
+</label>
+
+<label>First name:<span><sup>*</sup></span>
+<input type="text" name="first-name" required>
+</label>
+
+<label>Last name:<span><sup>*</sup></span>
+<input type="text" name="last-name" required>
+</label>
+
+<!--address-->
+<h3>Lead Person Details</h3>
+
+<label>Lead name:<span><sup>*</sup></span>
+<input type="text" name="lead-name" required>
+</label>
+
+<label>Address line1:<span><sup>*</sup></span>
+<input type="text" name="address1" required>
+</label>
+
+<label>Address line2:<span><sup>*</sup></span>
+<input type="text" name="address2" required>
+</label>
+
+<label>Postal code:<span><sup>*</sup></span>
+<input type="text" name="postal-code" required>
+</label>
+
+<label>Email:<span><sup>*</sup></span>
+<input type="text" name="email" required>
+</label>
+
+<label>Confirm email:<span><sup>*</sup></span>
+<input type="text" name="confirm-email" required>
+</label>
+
+<label>Telephone:<span><sup>*</sup></span>
+<input type="text" name="telephone" required>
+</label>
+
+
+<!-- special requests -->
+<h3>Special Request</h3>
+<p>If you have any special requests or requirements please enter them in the box below.</p>
+
+<label>Request details:
+<textarea name="request-details"></textarea>
+</label>
+
+<!-- postage -->
+<h3>Postage</h3>
+
+<label>Postage:
+	<select name="postage">
+		<option value="select">-- Select --</option>
+		<option value="standard">Standard Post &euro;2</option>
+		<option value="express">Express Post &euro;8</option>
+	</select>
+</label>
 </div> <!-- payment-details end -->
 
 
+
+
+<input type="submit" value="Pay in full" />
+</form>
 
 
 
