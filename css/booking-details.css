@@ -44,7 +44,24 @@ color: #FFF;
 	width:100%;
 	height:100px;
 }
-
+.payment-details select {
+	width:100%;
+	display:block;
+}
+.payment-details input[type="checkbox"] {
+	display:inline;
+	width: auto;
+}
+.final-price {
+	background-color:#90c900;
+	text-align:center;
+	padding:10px;
+	margin:10px auto;
+	max-width:200px;
+	-moz-border-radius: 20px;
+-webkit-border-radius: 20px;
+border-radius: 20px;
+}
 
 
 /* images */

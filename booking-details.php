@@ -121,7 +121,7 @@ If you wish to save the quote details and return to complete the booking later t
 <!-- names-->
 <h3>Names as per passport</h3>
 <label>Title: <span><sup>*</sup></span>
-<input type="text" name="title" required>
+<input type="text" name="title" required autofocus>
 </label>
 
 <label>First name:<span><sup>*</sup></span>
@@ -152,15 +152,15 @@ If you wish to save the quote details and return to complete the booking later t
 </label>
 
 <label>Email:<span><sup>*</sup></span>
-<input type="text" name="email" required>
+<input type="email" id="email" name="email" required>
 </label>
 
 <label>Confirm email:<span><sup>*</sup></span>
-<input type="text" name="confirm-email" required>
+<input type="email" id="confirm-email" name="confirm-email" required>
 </label>
 
 <label>Telephone:<span><sup>*</sup></span>
-<input type="text" name="telephone" required>
+<input type="tel" name="telephone" required>
 </label>
 
 
@@ -182,12 +182,28 @@ If you wish to save the quote details and return to complete the booking later t
 		<option value="express">Express Post &euro;8</option>
 	</select>
 </label>
+<p>Postage Price:  <span>&euro;2</span></p>
+
+<label>
+<input type="checkbox" name="special-offers" value="special-offers">
+Tick here if you would like to receive emails from breakaway.ie with product updates and special offers
+</label>
+
+<label>
+<input type="checkbox" name="terms-conditions" value="terms-conditions">
+ I confirm that I have read and agree with the <a href="#">terms and conditions</a></label>
+
 </div> <!-- payment-details end -->
 
 
-
-
+<div class="final-price">
+<p>Total cost:<br/>
+&euro;1657
+</p>
 <input type="submit" value="Pay in full" />
+</div> <!-- final-price end -->
+
+
 </form>
 
 
@@ -202,7 +218,20 @@ If you wish to save the quote details and return to complete the booking later t
   <?php include("shared-html/footer.php"); ?>
 </div>
 
+  <script type="text/javascript">
+      document.getElementById("confirm-email").addEventListener("input", verifyEmail);
 
+      function verifyEmail(input) {
+        input = input.srcElement;
+        if (input.value != document.getElementById('email').value) {
+          input.setCustomValidity('The two email addresses must match.');
+        } else {
+          input.setCustomValidity('');
+        }
+        input.nextElementSibling.innerText = input.validationMessage;
+      }
+
+    </script>
 
 </body>
 
