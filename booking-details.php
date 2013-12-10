@@ -106,7 +106,7 @@
  
  
  
- <p>To complete your booking please enter details below. All fields marked with* must be completed.
+ <p class="advisory-text">To complete your booking please enter details below. All fields marked with* must be completed.
 If you wish to save the quote details and return to complete the booking later then simply enter your email address and phone number and go directly to the Save quote for Later button. Your quote option will be held until 12pm (mid-day GMT) tomorrow.</p>
 
 <div class="img-holder">
@@ -115,6 +115,7 @@ If you wish to save the quote details and return to complete the booking later t
 </div> <!-- img-holder end -->
 
 
+<div class="final-booking-form-holder">
 <form action="#" method="post">
 <div class="payment-details">
 
@@ -201,10 +202,12 @@ Tick here if you would like to receive emails from breakaway.ie with product upd
 &euro;1657
 </p>
 <input type="submit" value="Pay in full" />
+
+
 </div> <!-- final-price end -->
-
-
 </form>
+</div> <!-- final-booking-form-holder end -->
+
 
 
 <div class="need-help">

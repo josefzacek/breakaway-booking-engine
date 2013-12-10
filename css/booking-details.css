@@ -116,15 +116,49 @@ border-radius: 20px;
 	float:left;
 	width:40%;
 }
-.need-help  .help-buttons {
+.need-help .help-buttons {
 	float:left;
 	width:60%;
 }
 
 /*desktop layout*/
 @media only screen and (min-width: 769px) {
-
+.final-booking-details {
+	width: 35%;
+	float: right;
 }
+.final-booking-form-holder {
+	width: 60%;
+	float: left;
+}
+.final-booking-form-holder .final-price {
+	float:left;
+	width:50%;
+}
+
+.need-help {
+	width: 35%;
+	float: right;
+}
+
+.need-help img { 
+	display:block;
+	margin:5px auto;
+	width:100%;
+	height:auto;
+	max-width:329px;
+	float:none;
+}
+.need-help .help-buttons {
+	text-align:center;
+	max-width:none;
+	width:100%;
+}
+
+
+
+	
+ 	
 
 
 

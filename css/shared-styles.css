@@ -211,9 +211,6 @@
 	
 /* tablet layout*/
 @media only screen and (min-width: 481px) {
-	body {
-	background-color:red;
-	}
 	#wrapper {
 		width:100%;
 	}
@@ -238,9 +235,7 @@
 
 /*desktop layout*/
 @media only screen and (min-width: 769px) {
-	body {
-		background-color:#FFF;
-	}
+
 /* start again back arrows */	
 	#navigation #start-again-back {
 		float:left;
