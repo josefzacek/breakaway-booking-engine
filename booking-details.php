@@ -207,6 +207,18 @@ Tick here if you would like to receive emails from breakaway.ie with product upd
 </form>
 
 
+<div class="need-help">
+<img src="images/booking-details/need-help.jpg" alt="Need help?">
+<div class="help-buttons">
+	<p><a href="#">Newsletter Signup</a></p>
+	<p><a href="#">Request Brochure</a></p>
+	<p><a href="#">Join us on Facebook</a></p>
+</div>
+<div class="clear-both"></div>
+
+</div> <!-- need-help end -->
+
+
 
   
   <div id="bottom-start-again-back">

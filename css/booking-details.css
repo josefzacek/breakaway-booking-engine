@@ -25,6 +25,13 @@
 	width:50%;
 }
 
+/* realex/licenced images  */
+.img-holder img {
+	display:block;
+	margin:3px auto;
+}
+
+
 
 /* payment details */
 .payment-details h3{
@@ -63,9 +70,61 @@ color: #FFF;
 border-radius: 20px;
 }
 
-
-/* images */
-.img-holder img {
-	display:block;
-	margin:3px auto;
+/* need help*/
+.need-help {
+	border: 3px solid #90c900;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	padding:0.5%;
+	margin:0.5%;
+	color:#fff;	
 }
+.need-help img {
+	display:block;
+	margin:5px auto;
+	width:100%;
+	height:auto;
+	max-width:329px;
+}
+
+.need-help a {
+	width: 80%;
+	height: 15px;
+	background: url(../images/shared/bottom-buttons.jpg) top;
+	display: block;
+	text-align: center;
+	margin: 7px auto;
+	padding: 10px 0px;
+	text-decoration: none;
+	color: #FFF;
+	font-size: 100%;
+	font-weight: bold;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+}
+.need-help a:hover {
+	background-position: 0 -35px;
+	color: #90C900;
+}
+
+/* tablet layout*/
+@media only screen and (min-width: 481px) {
+	.need-help img { 
+	display:inline-block;
+	float:left;
+	width:40%;
+}
+.need-help  .help-buttons {
+	float:left;
+	width:60%;
+}
+
+/*desktop layout*/
+@media only screen and (min-width: 769px) {
+
+}
+
+
+
