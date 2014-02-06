@@ -1,7 +1,10 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<meta charset="utf-8">
+ <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="author" content="www.josefzacek.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>select hotel</title>
 <link rel="stylesheet" type="text/css" href="css/shared-styles.css"/>
 <link rel="stylesheet" type="text/css" href="css/select-hotel.css"/>
@@ -192,22 +195,22 @@
        		<div class="tabs-navigation">
     			<ul>
 					<li class="current">
-                    	<span onclick="ChangeTab(this,'div_general','0');">
+                    	<span onClick="ChangeTab(this,'div_general','0');">
                         	General
                         </span>
                     </li>
 					<li class="">
-                    	<span onclick="ChangeTab(this,'div_description','0');">
+                    	<span onClick="ChangeTab(this,'div_description','0');">
                         	Description
                         </span>
                     </li>
 					<li class="">
-                    	<span onclick="ChangeTab(this,'div_photos','0');">
+                    	<span onClick="ChangeTab(this,'div_photos','0');">
                     		Photos
                         </span>
                     </li>
 					<li class="">
-                    	<span onclick="ChangeTab(this,'div_facilities','0');">
+                    	<span onClick="ChangeTab(this,'div_facilities','0');">
                         	Facilities
                         </span>
                     </li>
@@ -352,22 +355,22 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
        		<div class="tabs-navigation">
     			<ul>
 					<li class="current">
-                    	<span onclick="ChangeTab(this,'div_general','1');">
+                    	<span onClick="ChangeTab(this,'div_general','1');">
                         	General
                         </span>
                     </li>
 					<li class="">
-                    	<span onclick="ChangeTab(this,'div_description','1');">
+                    	<span onClick="ChangeTab(this,'div_description','1');">
                         	Description
                         </span>
                     </li>
 					<li class="">
-                    	<span onclick="ChangeTab(this,'div_photos','1');">
+                    	<span onClick="ChangeTab(this,'div_photos','1');">
                     		Photos
                         </span>
                     </li>
 					<li class="">
-                    	<span onclick="ChangeTab(this,'div_facilities','1');">
+                    	<span onClick="ChangeTab(this,'div_facilities','1');">
                         	Facilities
                         </span>
                     </li>
@@ -512,22 +515,22 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
        		<div class="tabs-navigation">
     			<ul>
 					<li class="current">
-                    	<span onclick="ChangeTab(this,'div_general','2');">
+                    	<span onClick="ChangeTab(this,'div_general','2');">
                         	General
                         </span>
                     </li>
 					<li class="">
-                    	<span onclick="ChangeTab(this,'div_description','2');">
+                    	<span onClick="ChangeTab(this,'div_description','2');">
                         	Description
                         </span>
                     </li>
 					<li class="">
-                    	<span onclick="ChangeTab(this,'div_photos','2');">
+                    	<span onClick="ChangeTab(this,'div_photos','2');">
                     		Photos
                         </span>
                     </li>
 					<li class="">
-                    	<span onclick="ChangeTab(this,'div_facilities','2');">
+                    	<span onClick="ChangeTab(this,'div_facilities','2');">
                         	Facilities
                         </span>
                     </li>
@@ -672,22 +675,22 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
        		<div class="tabs-navigation">
     			<ul>
 					<li class="current">
-                    	<span onclick="ChangeTab(this,'div_general','3');">
+                    	<span onClick="ChangeTab(this,'div_general','3');">
                         	General
                         </span>
                     </li>
 					<li class="">
-                    	<span onclick="ChangeTab(this,'div_description','3');">
+                    	<span onClick="ChangeTab(this,'div_description','3');">
                         	Description
                         </span>
                     </li>
 					<li class="">
-                    	<span onclick="ChangeTab(this,'div_photos','3');">
+                    	<span onClick="ChangeTab(this,'div_photos','3');">
                     		Photos
                         </span>
                     </li>
 					<li class="">
-                    	<span onclick="ChangeTab(this,'div_facilities','3');">
+                    	<span onClick="ChangeTab(this,'div_facilities','3');">
                         	Facilities
                         </span>
                     </li>

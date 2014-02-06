@@ -1,7 +1,14 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<meta charset="utf-8">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="author" content="www.josefzacek.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
 <title>Park pass only</title>
 <link rel="stylesheet" type="text/css" href="../css/booking-form-styles.css"/>
 <link rel="stylesheet"  type="text/css" href="../css/jquery-calendar.css" />
